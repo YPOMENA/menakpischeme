@@ -149,9 +149,9 @@ const CHAPTERS = [
     "name": "YPO Bahrain Integrated",
     "type": "Integrated",
     "healthStatus": "Platinum",
-    "healthScore": 31,
+    "healthScore": 35,
     "kpis": {
-      "chapter_commitments_12_14": 0,
+      "chapter_commitments_12_14": 3,
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": null,
@@ -164,23 +164,116 @@ const CHAPTERS = [
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 0,
+    "totalScore": 3,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
     "statusNote": null,
     "raw": {
-      "chapter_commitments_12_14": "8 of 14 commitments met",
-      "forum_100pct_trained": "90% of members forum trained",
+      "chapter_commitments_12_14": "12 of 14 commitments met",
+      "forum_100pct_trained": "93% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/24/2025",
-      "engagement_70pct": "37.5% Highly Engaged + Engaged combined"
+      "engagement_70pct": "42.5% Highly Engaged + Engaged combined"
     }
   },
   {
     "name": "YPO Cairo Integrated",
     "type": "Integrated",
-    "healthStatus": "Silver",
-    "healthScore": 26,
+    "healthStatus": "Platinum",
+    "healthScore": 33,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 4,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "12 of 14 commitments met",
+      "forum_100pct_trained": "92% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/6/2026",
+      "engagement_70pct": "51.3% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Capital Pakistan Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 34,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 0,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 3,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "12 of 14 commitments met",
+      "forum_100pct_trained": "89% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/16/2025",
+      "engagement_70pct": "54.5% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Dubai Downtown Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 33,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 2,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 6,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "12 of 14 commitments met",
+      "forum_100pct_trained": "99% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 7/22/2026",
+      "engagement_70pct": "81.2% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Dubai Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 34,
     "kpis": {
       "chapter_commitments_12_14": 0,
       "mena_mastery_officers": null,
@@ -201,17 +294,17 @@ const CHAPTERS = [
     "status": "scored",
     "statusNote": null,
     "raw": {
-      "chapter_commitments_12_14": "6 of 14 commitments met",
-      "forum_100pct_trained": "89% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 6/2/2025",
-      "engagement_70pct": "70% Highly Engaged + Engaged combined"
+      "chapter_commitments_12_14": "11 of 14 commitments met",
+      "forum_100pct_trained": "96% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 12/17/2025",
+      "engagement_70pct": "70.7% Highly Engaged + Engaged combined"
     }
   },
   {
-    "name": "YPO Capital Pakistan Integrated",
+    "name": "YPO Palestine Integrated",
     "type": "Integrated",
-    "healthStatus": "Silver",
-    "healthScore": 28,
+    "healthStatus": "Platinum",
+    "healthScore": 34,
     "kpis": {
       "chapter_commitments_12_14": 0,
       "mena_mastery_officers": null,
@@ -232,17 +325,17 @@ const CHAPTERS = [
     "status": "scored",
     "statusNote": null,
     "raw": {
-      "chapter_commitments_12_14": "9 of 14 commitments met",
-      "forum_100pct_trained": "84% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 9/16/2025",
-      "engagement_70pct": "56.8% Highly Engaged + Engaged combined"
+      "chapter_commitments_12_14": "11 of 14 commitments met",
+      "forum_100pct_trained": "96% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 12/15/2025",
+      "engagement_70pct": "43.5% Highly Engaged + Engaged combined"
     }
   },
   {
-    "name": "YPO Dubai Downtown Integrated",
+    "name": "YPO Tunisia Integrated",
     "type": "Integrated",
     "healthStatus": "Platinum",
-    "healthScore": 31,
+    "healthScore": 34,
     "kpis": {
       "chapter_commitments_12_14": 0,
       "mena_mastery_officers": null,
@@ -263,110 +356,48 @@ const CHAPTERS = [
     "status": "scored",
     "statusNote": null,
     "raw": {
-      "chapter_commitments_12_14": "8 of 14 commitments met",
-      "forum_100pct_trained": "99% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 12/11/2025",
-      "engagement_70pct": "78.8% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Dubai Integrated",
-    "type": "Integrated",
-    "healthStatus": "Platinum",
-    "healthScore": 32,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 0,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "7 of 14 commitments met",
-      "forum_100pct_trained": "96% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 12/17/2025",
-      "engagement_70pct": "68.4% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Palestine Integrated",
-    "type": "Integrated",
-    "healthStatus": "Platinum",
-    "healthScore": 31,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 0,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "9 of 14 commitments met",
-      "forum_100pct_trained": "96% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 12/15/2025",
-      "engagement_70pct": "56.5% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Tunisia Integrated",
-    "type": "Integrated",
-    "healthStatus": "Silver",
-    "healthScore": 29,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 1,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 1,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "9 of 14 commitments met",
-      "forum_100pct_trained": "89% of members forum trained",
+      "chapter_commitments_12_14": "11 of 14 commitments met",
+      "forum_100pct_trained": "88% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/24/2025",
-      "engagement_70pct": "70.4% Highly Engaged + Engaged combined"
+      "engagement_70pct": "80.8% Highly Engaged + Engaged combined"
     }
   },
   {
     "name": "YPO Gold Pakistan",
     "type": "Gold",
     "healthStatus": "Platinum",
-    "healthScore": 31,
+    "healthScore": 33,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "champion_positions_20pct": null
+    },
+    "totalScore": 4,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "13 of 14 commitments met",
+      "forum_100pct_trained": "95% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/24/2026",
+      "engagement_70pct": "52.6% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Gold Saudi",
+    "type": "Gold",
+    "healthStatus": "Platinum",
+    "healthScore": 33,
     "kpis": {
       "chapter_commitments_12_14": 0,
       "mena_mastery_officers": null,
@@ -388,16 +419,16 @@ const CHAPTERS = [
     "statusNote": null,
     "raw": {
       "chapter_commitments_12_14": "8 of 14 commitments met",
-      "forum_100pct_trained": "95% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 9/17/2025",
-      "engagement_70pct": "60.3% Highly Engaged + Engaged combined"
+      "forum_100pct_trained": "94% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/2/2025",
+      "engagement_70pct": "29.1% Highly Engaged + Engaged combined"
     }
   },
   {
-    "name": "YPO Gold Saudi",
-    "type": "Gold",
-    "healthStatus": "Silver",
-    "healthScore": 28,
+    "name": "YPO Indus Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 36,
     "kpis": {
       "chapter_commitments_12_14": 0,
       "mena_mastery_officers": null,
@@ -410,7 +441,7 @@ const CHAPTERS = [
       "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
-      "champion_positions_20pct": null
+      "new_members_under_40": null
     },
     "totalScore": 0,
     "mandatoryMet": "No",
@@ -418,14 +449,14 @@ const CHAPTERS = [
     "status": "scored",
     "statusNote": null,
     "raw": {
-      "chapter_commitments_12_14": "7 of 14 commitments met",
+      "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "94% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 9/2/2025",
-      "engagement_70pct": "25% Highly Engaged + Engaged combined"
+      "game_plan_submission": "Strategic plan last updated 3/17/2026",
+      "engagement_70pct": "42.4% Highly Engaged + Engaged combined"
     }
   },
   {
-    "name": "YPO Indus Integrated",
+    "name": "YPO Iraq Integrated",
     "type": "Integrated",
     "healthStatus": "Silver",
     "healthScore": 27,
@@ -449,48 +480,17 @@ const CHAPTERS = [
     "status": "scored",
     "statusNote": null,
     "raw": {
-      "chapter_commitments_12_14": "6 of 14 commitments met",
-      "forum_100pct_trained": "95% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 3/17/2026",
-      "engagement_70pct": "47.6% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Iraq Integrated",
-    "type": "Integrated",
-    "healthStatus": "Silver",
-    "healthScore": 25,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 0,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "6 of 14 commitments met",
-      "forum_100pct_trained": "80% of members forum trained",
+      "chapter_commitments_12_14": "11 of 14 commitments met",
+      "forum_100pct_trained": "83% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 11/5/2025",
-      "engagement_70pct": "35% Highly Engaged + Engaged combined"
+      "engagement_70pct": "39.1% Highly Engaged + Engaged combined"
     }
   },
   {
     "name": "YPO Morocco Integrated",
     "type": "Integrated",
     "healthStatus": "Platinum",
-    "healthScore": 36,
+    "healthScore": 38,
     "kpis": {
       "chapter_commitments_12_14": 3,
       "mena_mastery_officers": null,
@@ -512,18 +512,18 @@ const CHAPTERS = [
     "statusNote": null,
     "raw": {
       "chapter_commitments_12_14": "14 of 14 commitments met",
-      "forum_100pct_trained": "97% of members forum trained",
+      "forum_100pct_trained": "94% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/30/2025",
-      "engagement_70pct": "41.5% Highly Engaged + Engaged combined"
+      "engagement_70pct": "37.1% Highly Engaged + Engaged combined"
     }
   },
   {
     "name": "YPO Khaleej Integrated",
     "type": "Integrated",
     "healthStatus": "Platinum",
-    "healthScore": 30,
+    "healthScore": 35,
     "kpis": {
-      "chapter_commitments_12_14": 0,
+      "chapter_commitments_12_14": 3,
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": null,
@@ -536,116 +536,23 @@ const CHAPTERS = [
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 0,
+    "totalScore": 3,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
     "statusNote": null,
     "raw": {
-      "chapter_commitments_12_14": "9 of 14 commitments met",
-      "forum_100pct_trained": "76% of members forum trained",
+      "chapter_commitments_12_14": "14 of 14 commitments met",
+      "forum_100pct_trained": "80% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 10/15/2025",
-      "engagement_70pct": "60% Highly Engaged + Engaged combined"
+      "engagement_70pct": "64% Highly Engaged + Engaged combined"
     }
   },
   {
     "name": "YPO Kuwait Integrated",
     "type": "Integrated",
     "healthStatus": "Silver",
-    "healthScore": 22,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 0,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "5 of 14 commitments met",
-      "forum_100pct_trained": "78% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 9/18/2025",
-      "engagement_70pct": "48.8% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Lebanon",
-    "type": "Y",
-    "healthStatus": "Platinum",
-    "healthScore": 33,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 0,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "9 of 14 commitments met",
-      "forum_100pct_trained": "91% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 7/1/2025",
-      "engagement_70pct": "43.5% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Oman Integrated",
-    "type": "Integrated",
-    "healthStatus": "Silver",
-    "healthScore": 29,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 1,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 1,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "6 of 14 commitments met",
-      "forum_100pct_trained": "98% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 7/6/2026",
-      "engagement_70pct": "58.6% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Pakistan",
-    "type": "Y",
-    "healthStatus": "Platinum",
-    "healthScore": 36,
+    "healthScore": 27,
     "kpis": {
       "chapter_commitments_12_14": 0,
       "mena_mastery_officers": null,
@@ -667,18 +574,111 @@ const CHAPTERS = [
     "statusNote": null,
     "raw": {
       "chapter_commitments_12_14": "10 of 14 commitments met",
-      "forum_100pct_trained": "96% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 9/17/2025",
-      "engagement_70pct": "57.8% Highly Engaged + Engaged combined"
+      "forum_100pct_trained": "84% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/18/2025",
+      "engagement_70pct": "44.2% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Lebanon",
+    "type": "Y",
+    "healthStatus": "Platinum",
+    "healthScore": 37,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 0,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 3,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "12 of 14 commitments met",
+      "forum_100pct_trained": "90% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 7/1/2025",
+      "engagement_70pct": "43.8% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Oman Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 33,
+    "kpis": {
+      "chapter_commitments_12_14": 0,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 1,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "11 of 14 commitments met",
+      "forum_100pct_trained": "98% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 7/6/2026",
+      "engagement_70pct": "49.2% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Pakistan",
+    "type": "Y",
+    "healthStatus": "Platinum",
+    "healthScore": 37,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 4,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "12 of 14 commitments met",
+      "forum_100pct_trained": "92% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/24/2026",
+      "engagement_70pct": "56% Highly Engaged + Engaged combined"
     }
   },
   {
     "name": "YPO MENA One Regional Integrated",
     "type": "Integrated",
     "healthStatus": "Platinum",
-    "healthScore": 32,
+    "healthScore": 34,
     "kpis": {
-      "chapter_commitments_12_14": 0,
+      "chapter_commitments_12_14": 3,
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": null,
@@ -691,20 +691,268 @@ const CHAPTERS = [
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 2,
+    "totalScore": 5,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
     "statusNote": null,
     "raw": {
-      "chapter_commitments_12_14": "8 of 14 commitments met",
-      "forum_100pct_trained": "98% of members forum trained",
+      "chapter_commitments_12_14": "12 of 14 commitments met",
+      "forum_100pct_trained": "99% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/20/2025",
-      "engagement_70pct": "78.1% Highly Engaged + Engaged combined"
+      "engagement_70pct": "77.8% Highly Engaged + Engaged combined"
     }
   },
   {
     "name": "YPO Emirates Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 37,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 4,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "14 of 14 commitments met",
+      "forum_100pct_trained": "96% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 6/12/2026",
+      "engagement_70pct": "68.9% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Gold Lebanon",
+    "type": "Gold",
+    "healthStatus": "Platinum",
+    "healthScore": 37,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 2,
+      "apeiron_80pct": null,
+      "game_plan_submission": 0,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "champion_positions_20pct": null
+    },
+    "totalScore": 5,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "14 of 14 commitments met",
+      "forum_100pct_trained": "100% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 7/1/2025",
+      "engagement_70pct": "49.1% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Jordan Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 31,
+    "kpis": {
+      "chapter_commitments_12_14": 0,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 1,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "11 of 14 commitments met",
+      "forum_100pct_trained": "97% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 7/9/2026",
+      "engagement_70pct": "43.7% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Levant Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 37,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 2,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 6,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "13 of 14 commitments met",
+      "forum_100pct_trained": "95% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/29/2026",
+      "engagement_70pct": "76.7% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO MENA Gulf Regional Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 32,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 0,
+      "engagement_70pct": 2,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 5,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "13 of 14 commitments met",
+      "forum_100pct_trained": "94% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 5/16/2025",
+      "engagement_70pct": "75.8% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Qatar Integrated",
+    "type": "Integrated",
+    "healthStatus": "Silver",
+    "healthScore": 29,
+    "kpis": {
+      "chapter_commitments_12_14": 0,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 0,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 0,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "11 of 14 commitments met",
+      "forum_100pct_trained": "80% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/24/2025",
+      "engagement_70pct": "48% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Saudi",
+    "type": "Y",
+    "healthStatus": "Platinum",
+    "healthScore": 33,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 0,
+      "apeiron_80pct": null,
+      "game_plan_submission": 0,
+      "engagement_70pct": 0,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 3,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "13 of 14 commitments met",
+      "forum_100pct_trained": "86% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 1/20/2026",
+      "engagement_70pct": "34.7% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO Olive MENA Regional Integrated",
+    "type": "Integrated",
+    "healthStatus": "Platinum",
+    "healthScore": 32,
+    "kpis": {
+      "chapter_commitments_12_14": 3,
+      "mena_mastery_officers": null,
+      "elect_core_officer_training": null,
+      "playbook_signed": null,
+      "forum_100pct_trained": 2,
+      "apeiron_80pct": null,
+      "game_plan_submission": 1,
+      "engagement_70pct": 2,
+      "cm_workshop_attendance": null,
+      "rc_rd_chapter_visit": null,
+      "open_chapter_event": null,
+      "new_members_under_40": null
+    },
+    "totalScore": 8,
+    "mandatoryMet": "No",
+    "tier": "In Progress",
+    "status": "scored",
+    "statusNote": null,
+    "raw": {
+      "chapter_commitments_12_14": "13 of 14 commitments met",
+      "forum_100pct_trained": "100% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 6/8/2026",
+      "engagement_70pct": "77.8% Highly Engaged + Engaged combined"
+    }
+  },
+  {
+    "name": "YPO UAE Integrated",
     "type": "Integrated",
     "healthStatus": "Platinum",
     "healthScore": 35,
@@ -729,257 +977,9 @@ const CHAPTERS = [
     "statusNote": null,
     "raw": {
       "chapter_commitments_12_14": "12 of 14 commitments met",
-      "forum_100pct_trained": "96% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 6/12/2026",
-      "engagement_70pct": "77.6% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Gold Lebanon",
-    "type": "Gold",
-    "healthStatus": "Platinum",
-    "healthScore": 34,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 2,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "champion_positions_20pct": null
-    },
-    "totalScore": 2,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "10 of 14 commitments met",
-      "forum_100pct_trained": "100% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 7/1/2025",
-      "engagement_70pct": "49.1% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Jordan Integrated",
-    "type": "Integrated",
-    "healthStatus": "Silver",
-    "healthScore": 28,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 1,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 1,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "7 of 14 commitments met",
-      "forum_100pct_trained": "94% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 7/9/2026",
-      "engagement_70pct": "41.2% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Levant Integrated",
-    "type": "Integrated",
-    "healthStatus": "Platinum",
-    "healthScore": 31,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 2,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "8 of 14 commitments met",
-      "forum_100pct_trained": "98% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 10/1/2025",
-      "engagement_70pct": "87.5% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO MENA Gulf Regional Integrated",
-    "type": "Integrated",
-    "healthStatus": "Platinum",
-    "healthScore": 30,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 2,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "8 of 14 commitments met",
-      "forum_100pct_trained": "90% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 5/16/2025",
-      "engagement_70pct": "77.4% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Qatar Integrated",
-    "type": "Integrated",
-    "healthStatus": "Silver",
-    "healthScore": 28,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 0,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "7 of 14 commitments met",
-      "forum_100pct_trained": "86% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 9/24/2025",
-      "engagement_70pct": "50% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Saudi",
-    "type": "Y",
-    "healthStatus": "Silver",
-    "healthScore": 25,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 0,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "9 of 14 commitments met",
-      "forum_100pct_trained": "77% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 1/20/2026",
-      "engagement_70pct": "25.5% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO Olive MENA Regional Integrated",
-    "type": "Integrated",
-    "healthStatus": "Platinum",
-    "healthScore": 30,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 1,
-      "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 3,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "11 of 14 commitments met",
-      "forum_100pct_trained": "92% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 6/8/2026",
-      "engagement_70pct": "80.8% Highly Engaged + Engaged combined"
-    }
-  },
-  {
-    "name": "YPO UAE Integrated",
-    "type": "Integrated",
-    "healthStatus": "Platinum",
-    "healthScore": 31,
-    "kpis": {
-      "chapter_commitments_12_14": 0,
-      "mena_mastery_officers": null,
-      "elect_core_officer_training": null,
-      "playbook_signed": null,
-      "forum_100pct_trained": 0,
-      "apeiron_80pct": null,
-      "game_plan_submission": 0,
-      "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
-      "rc_rd_chapter_visit": null,
-      "open_chapter_event": null,
-      "new_members_under_40": null
-    },
-    "totalScore": 2,
-    "mandatoryMet": "No",
-    "tier": "In Progress",
-    "status": "scored",
-    "statusNote": null,
-    "raw": {
-      "chapter_commitments_12_14": "7 of 14 commitments met",
-      "forum_100pct_trained": "98% of members forum trained",
-      "game_plan_submission": "Strategic plan last updated 12/16/2025",
-      "engagement_70pct": "81.4% Highly Engaged + Engaged combined"
+      "forum_100pct_trained": "97% of members forum trained",
+      "game_plan_submission": "Strategic plan last updated 9/24/2026",
+      "engagement_70pct": "77.3% Highly Engaged + Engaged combined"
     }
   }
 ];
@@ -1294,7 +1294,7 @@ export default function YpoMenaKpiScorecard() {
             <span style={{
               display: "inline-block", width: 6, height: 6, borderRadius: "50%", background: YPO_AMBER,
             }} />
-            Not live {"\u2014"} data is manually updated · Last Updated: 09/07/2026
+            Not live {"\u2014"} data is manually updated · Last Updated: 12/10/2026
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>

@@ -173,7 +173,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "12 of 14 commitments met",
       "forum_100pct_trained": "93% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/24/2025",
-      "engagement_70pct": "37.5% Highly Engaged + Engaged combined"
+      "engagement_70pct": "42.5% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -189,13 +189,13 @@ const CHAPTERS = [
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
-      "engagement_70pct": 1,
+      "engagement_70pct": 0,
       "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 5,
+    "totalScore": 4,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -204,7 +204,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "12 of 14 commitments met",
       "forum_100pct_trained": "92% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/6/2026",
-      "engagement_70pct": "70% Highly Engaged + Engaged combined"
+      "engagement_70pct": "51.3% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -235,7 +235,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "12 of 14 commitments met",
       "forum_100pct_trained": "89% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/16/2025",
-      "engagement_70pct": "56.8% Highly Engaged + Engaged combined"
+      "engagement_70pct": "54.5% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -266,7 +266,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "12 of 14 commitments met",
       "forum_100pct_trained": "99% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 7/22/2026",
-      "engagement_70pct": "78.8% Highly Engaged + Engaged combined"
+      "engagement_70pct": "81.2% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -282,13 +282,13 @@ const CHAPTERS = [
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
-      "engagement_70pct": 0,
+      "engagement_70pct": 1,
       "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 0,
+    "totalScore": 1,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -297,7 +297,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "96% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 12/17/2025",
-      "engagement_70pct": "68.4% Highly Engaged + Engaged combined"
+      "engagement_70pct": "70.7% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -328,7 +328,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "96% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 12/15/2025",
-      "engagement_70pct": "56.5% Highly Engaged + Engaged combined"
+      "engagement_70pct": "43.5% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -344,13 +344,13 @@ const CHAPTERS = [
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
-      "engagement_70pct": 1,
+      "engagement_70pct": 2,
       "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 1,
+    "totalScore": 2,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -359,7 +359,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "88% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/24/2025",
-      "engagement_70pct": "70.4% Highly Engaged + Engaged combined"
+      "engagement_70pct": "80.8% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -390,7 +390,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "13 of 14 commitments met",
       "forum_100pct_trained": "95% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/24/2026",
-      "engagement_70pct": "60.3% Highly Engaged + Engaged combined"
+      "engagement_70pct": "52.6% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -421,7 +421,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "8 of 14 commitments met",
       "forum_100pct_trained": "94% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/2/2025",
-      "engagement_70pct": "25% Highly Engaged + Engaged combined"
+      "engagement_70pct": "29.1% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -452,7 +452,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "94% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 3/17/2026",
-      "engagement_70pct": "47.6% Highly Engaged + Engaged combined"
+      "engagement_70pct": "42.4% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -483,7 +483,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "83% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 11/5/2025",
-      "engagement_70pct": "35% Highly Engaged + Engaged combined"
+      "engagement_70pct": "39.1% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -514,7 +514,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "14 of 14 commitments met",
       "forum_100pct_trained": "94% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/30/2025",
-      "engagement_70pct": "41.5% Highly Engaged + Engaged combined"
+      "engagement_70pct": "37.1% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -545,7 +545,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "14 of 14 commitments met",
       "forum_100pct_trained": "80% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 10/15/2025",
-      "engagement_70pct": "60% Highly Engaged + Engaged combined"
+      "engagement_70pct": "64% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -576,7 +576,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "10 of 14 commitments met",
       "forum_100pct_trained": "84% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/18/2025",
-      "engagement_70pct": "48.8% Highly Engaged + Engaged combined"
+      "engagement_70pct": "44.2% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -607,7 +607,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "12 of 14 commitments met",
       "forum_100pct_trained": "90% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 7/1/2025",
-      "engagement_70pct": "43.5% Highly Engaged + Engaged combined"
+      "engagement_70pct": "43.8% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -638,7 +638,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "98% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 7/6/2026",
-      "engagement_70pct": "58.6% Highly Engaged + Engaged combined"
+      "engagement_70pct": "49.2% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -669,7 +669,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "12 of 14 commitments met",
       "forum_100pct_trained": "92% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/24/2026",
-      "engagement_70pct": "57.8% Highly Engaged + Engaged combined"
+      "engagement_70pct": "56% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -700,7 +700,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "12 of 14 commitments met",
       "forum_100pct_trained": "99% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/20/2025",
-      "engagement_70pct": "78.1% Highly Engaged + Engaged combined"
+      "engagement_70pct": "77.8% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -716,13 +716,13 @@ const CHAPTERS = [
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
-      "engagement_70pct": 2,
+      "engagement_70pct": 0,
       "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 6,
+    "totalScore": 4,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -731,7 +731,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "14 of 14 commitments met",
       "forum_100pct_trained": "96% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 6/12/2026",
-      "engagement_70pct": "77.6% Highly Engaged + Engaged combined"
+      "engagement_70pct": "68.9% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -793,7 +793,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "97% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 7/9/2026",
-      "engagement_70pct": "41.2% Highly Engaged + Engaged combined"
+      "engagement_70pct": "43.7% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -824,7 +824,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "13 of 14 commitments met",
       "forum_100pct_trained": "95% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/29/2026",
-      "engagement_70pct": "87.5% Highly Engaged + Engaged combined"
+      "engagement_70pct": "76.7% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -855,7 +855,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "13 of 14 commitments met",
       "forum_100pct_trained": "94% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 5/16/2025",
-      "engagement_70pct": "77.4% Highly Engaged + Engaged combined"
+      "engagement_70pct": "75.8% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -886,7 +886,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "11 of 14 commitments met",
       "forum_100pct_trained": "80% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/24/2025",
-      "engagement_70pct": "50% Highly Engaged + Engaged combined"
+      "engagement_70pct": "48% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -917,7 +917,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "13 of 14 commitments met",
       "forum_100pct_trained": "86% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 1/20/2026",
-      "engagement_70pct": "25.5% Highly Engaged + Engaged combined"
+      "engagement_70pct": "34.7% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -948,7 +948,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "13 of 14 commitments met",
       "forum_100pct_trained": "100% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 6/8/2026",
-      "engagement_70pct": "80.8% Highly Engaged + Engaged combined"
+      "engagement_70pct": "77.8% Highly Engaged + Engaged combined"
     }
   },
   {
@@ -979,7 +979,7 @@ const CHAPTERS = [
       "chapter_commitments_12_14": "12 of 14 commitments met",
       "forum_100pct_trained": "97% of members forum trained",
       "game_plan_submission": "Strategic plan last updated 9/24/2026",
-      "engagement_70pct": "81.4% Highly Engaged + Engaged combined"
+      "engagement_70pct": "77.3% Highly Engaged + Engaged combined"
     }
   }
 ];

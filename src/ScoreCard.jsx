@@ -53,6 +53,16 @@ const KPI_META = [
     "infoText": null
   },
   {
+    "key": "cm_workshop_attendance",
+    "code": "CMW",
+    "label": "Chapter Manager to Attend CM Workshop and Share Learnings with Chapter Board",
+    "max": 5,
+    "mandatory": true,
+    "note": null,
+    "appliesTo": null,
+    "infoText": "EMEA: 25\u201329 Jan 2027, Lisbon, Portugal \u00b7 Americas: 1\u20135 Mar 2027, Cancun, Mexico \u00b7 Asia/Pacific: 5\u20139 Apr 2027, Hanoi, Vietnam"
+  },
+  {
     "key": "forum_100pct_trained",
     "code": "FMT",
     "label": "100% of Members Forum Trained",
@@ -91,16 +101,6 @@ const KPI_META = [
     "note": "+1pt for 71%+",
     "appliesTo": null,
     "infoText": null
-  },
-  {
-    "key": "cm_workshop_attendance",
-    "code": "CMW",
-    "label": "Chapter Manager to Attend CM Workshop and Share Learnings with Chapter Board",
-    "max": 5,
-    "mandatory": true,
-    "note": null,
-    "appliesTo": null,
-    "infoText": "EMEA: 25\u201329 Jan 2027, Lisbon, Portugal \u00b7 Americas: 1\u20135 Mar 2027, Cancun, Mexico \u00b7 Asia/Pacific: 5\u20139 Apr 2027, Hanoi, Vietnam"
   },
   {
     "key": "rc_rd_chapter_visit",
@@ -147,6 +147,9 @@ const KPI_META = [
 // Potential total per the FY26-27 scheme (only one of U40 / CHP applies to a chapter).
 const MAX_SCORE = 26;
 
+// Shown in the header and on chapter PDFs; update whenever new data is loaded.
+const LAST_UPDATED = "13/10/2026";
+
 const CHAPTERS = [
   {
     "name": "YPO Bahrain Integrated",
@@ -158,11 +161,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -191,11 +194,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -224,11 +227,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -257,11 +260,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 0,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -290,11 +293,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 0,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 1,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -323,11 +326,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 0,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -356,11 +359,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -389,11 +392,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "champion_positions_20pct": null
@@ -422,11 +425,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 0,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "champion_positions_20pct": null
@@ -455,11 +458,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -488,11 +491,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -521,11 +524,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 0,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -554,11 +557,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -587,11 +590,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -620,11 +623,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -653,11 +656,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -686,11 +689,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -719,11 +722,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -752,11 +755,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -785,11 +788,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 2,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "champion_positions_20pct": null
@@ -818,11 +821,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -851,11 +854,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -884,11 +887,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -917,11 +920,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -950,11 +953,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -983,11 +986,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 2,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -1016,11 +1019,11 @@ const CHAPTERS = [
       "mena_mastery_officers": null,
       "elect_core_officer_training": null,
       "playbook_signed": 2,
+      "cm_workshop_attendance": null,
       "forum_100pct_trained": 0,
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 2,
-      "cm_workshop_attendance": null,
       "rc_rd_chapter_visit": null,
       "open_chapter_event": null,
       "new_members_under_40": null
@@ -1096,15 +1099,181 @@ function TierBadge({ tier }) {
   );
 }
 
-function KpiVerticalPanel({ chapter }) {
-  const rows = KPI_META.filter(k => {
+function applicableKpis(chapter) {
+  return KPI_META.filter(k => {
     if (!k.appliesTo) return true;
     if (k.appliesTo === "GOLD") return chapter.type === "Gold";
     if (k.appliesTo === "Y_INTEGRATED") return chapter.type === "Y" || chapter.type === "Integrated";
     return true;
   });
+}
+
+function kpiComment(chapter, k) {
+  const raw = chapter.raw && chapter.raw[k.key];
+  if (raw) return raw;
+  if (k.infoText) return k.infoText;
+  return "";
+}
+
+const STATUS_LABEL = { full: "Met", partial: "Partial", zero: "Not met", missing: "Pending" };
+
+// The embedded logo is white on black; the header hides the black with a "screen"
+// blend. Do the same blend on a canvas so the PDF gets a white-on-navy logo.
+function logoOnNavy() {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = YPO_NAVY;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.globalCompositeOperation = "screen";
+      ctx.drawImage(img, 0, 0);
+      resolve({ data: canvas.toDataURL("image/jpeg", 0.92), w: canvas.width, h: canvas.height });
+    };
+    img.onerror = reject;
+    img.src = YPO_LOGO;
+  });
+}
+
+async function downloadChapterPdf(chapter) {
+  const [{ jsPDF }, { default: autoTable }, logo] = await Promise.all([
+    import("jspdf"), import("jspdf-autotable"), logoOnNavy(),
+  ]);
+  const doc = new jsPDF({ unit: "pt", format: "a4" });
+  const W = doc.internal.pageSize.getWidth();
+  const H = doc.internal.pageSize.getHeight();
+  const M = 40;
+
+  // Header band
+  doc.setFillColor(YPO_NAVY);
+  doc.rect(0, 0, W, 92, "F");
+  const logoH = 60, logoW = logoH * logo.w / logo.h;
+  doc.addImage(logo.data, "JPEG", W - logoW - 6, 16, logoW, logoH);
+  doc.setTextColor("#ffffff");
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(19);
+  doc.text("MENA FY26-27 KPI Scorecard", M, 44);
+  doc.setFont("helvetica", "normal");
+  doc.setFontSize(9);
+  doc.setTextColor("#c5cde0");
+  doc.text(`Last Updated: ${LAST_UPDATED}  \u00b7  Not live \u2014 data is manually updated`, M, 64);
+
+  // Chapter name
+  doc.setTextColor(YPO_NAVY);
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(17);
+  doc.text(chapter.name, M, 128);
+
+  // Summary tiles
+  const tiles = [
+    ["Health Status", chapter.healthStatus ? `${chapter.healthStatus}${chapter.healthScore != null ? ` \u00b7 ${chapter.healthScore}` : ""}` : "\u2014"],
+    ["Total Score", `${chapter.totalScore} / ${MAX_SCORE}`],
+    ["Mandatory Met", chapter.mandatoryMet === "Yes" ? "Yes" : "No"],
+    ["Tier", chapter.tier],
+  ];
+  const gap = 10, tileW = (W - 2 * M - gap * (tiles.length - 1)) / tiles.length, tileY = 144;
+  tiles.forEach(([label, value], i) => {
+    const x = M + i * (tileW + gap);
+    doc.setFillColor("#f3f5fa");
+    doc.setDrawColor("#e2e6f0");
+    doc.roundedRect(x, tileY, tileW, 50, 5, 5, "FD");
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(7.5);
+    doc.setTextColor("#8892b0");
+    doc.text(label.toUpperCase(), x + 10, tileY + 17);
+    doc.setFontSize(13);
+    doc.setTextColor(label === "Mandatory Met" ? (chapter.mandatoryMet === "Yes" ? YPO_GREEN : YPO_RED) : YPO_NAVY);
+    doc.text(value, x + 10, tileY + 38);
+  });
+
+  // KPI table
+  const kpis = applicableKpis(chapter);
+  const statusColor = { full: YPO_GREEN, partial: YPO_AMBER, zero: YPO_RED, missing: YPO_PURPLE };
+  autoTable(doc, {
+    startY: tileY + 68,
+    margin: { left: M, right: M },
+    head: [["KPI", "Score", "Status", "Comments"]],
+    body: kpis.map(k => {
+      const val = chapter.kpis[k.key];
+      const sub = [k.mandatory ? "MANDATORY" : null, k.note].filter(Boolean).join(" \u00b7 ");
+      return [
+        sub ? `${k.label}\n${sub}` : k.label,
+        val === null || val === undefined ? "\u2013" : `${val} / ${k.max}`,
+        STATUS_LABEL[kpiStatus(val, k.max)],
+        kpiComment(chapter, k),
+      ];
+    }),
+    styles: { font: "helvetica", fontSize: 8.5, cellPadding: 6, textColor: "#3a4260", lineColor: "#e2e6f0", lineWidth: 0.5, valign: "top" },
+    headStyles: { fillColor: YPO_NAVY, textColor: "#ffffff", fontStyle: "bold", fontSize: 8 },
+    alternateRowStyles: { fillColor: "#fafbfd" },
+    columnStyles: {
+      0: { cellWidth: 205, textColor: YPO_NAVY, fontStyle: "bold" },
+      1: { cellWidth: 48, halign: "center" },
+      2: { cellWidth: 52, fontStyle: "bold" },
+    },
+    didParseCell: (data) => {
+      if (data.section === "body" && data.column.index === 2) {
+        const k = kpis[data.row.index];
+        data.cell.styles.textColor = statusColor[kpiStatus(chapter.kpis[k.key], k.max)];
+      }
+    },
+  });
+
+  // Footer on every page
+  const pages = doc.getNumberOfPages();
+  for (let i = 1; i <= pages; i++) {
+    doc.setPage(i);
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(7.5);
+    doc.setTextColor("#8892b0");
+    doc.text(`Advanced 20\u201322 pts \u00b7 Master 23\u201324 pts \u00b7 Elite 25\u201326 pts \u00b7 reward requires all mandatory KPIs`, M, H - 24);
+    doc.text(`Page ${i} of ${pages}`, W - M, H - 24, { align: "right" });
+  }
+
+  doc.save(`${chapter.name} - KPI Scorecard ${LAST_UPDATED.replace(/\//g, "-")}.pdf`);
+}
+
+function PdfButton({ chapter }) {
+  const [busy, setBusy] = useState(false);
+  const onClick = async () => {
+    setBusy(true);
+    try {
+      await downloadChapterPdf(chapter);
+    } catch (err) {
+      console.error(err);
+      alert("Sorry, the PDF could not be created.");
+    } finally {
+      setBusy(false);
+    }
+  };
+  return (
+    <button
+      onClick={onClick}
+      disabled={busy}
+      style={{
+        display: "inline-flex", alignItems: "center", gap: 6,
+        background: YPO_ORANGE, color: "#fff", border: "none", borderRadius: 6,
+        padding: "6px 14px", fontSize: 11.5, fontWeight: 800, letterSpacing: "0.02em",
+        cursor: busy ? "wait" : "pointer", opacity: busy ? 0.7 : 1, fontFamily: "inherit",
+        boxShadow: "0 1px 4px rgba(219,124,46,0.35)",
+      }}
+    >
+      <span style={{ fontSize: 13 }}>{"\u2913"}</span>
+      {busy ? "Preparing PDF\u2026" : "Download PDF"}
+    </button>
+  );
+}
+
+function KpiVerticalPanel({ chapter }) {
+  const rows = applicableKpis(chapter);
   return (
     <div style={{ padding: "16px 24px 20px 54px", maxWidth: 720 }}>
+      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 10 }}>
+        <PdfButton chapter={chapter} />
+      </div>
       <table style={{ width: "100%", borderCollapse: "collapse", background: "#fff", border: "1px solid #e2e6f0", borderRadius: 7, overflow: "hidden" }}>
         <thead>
           <tr style={{ background: "#f3f5fa" }}>
@@ -1141,12 +1310,7 @@ function KpiVerticalPanel({ chapter }) {
                   {val === null ? "\u2014" : `${val} / ${k.max}`}
                 </td>
                 <td style={{ padding: "8px 14px", fontSize: 11.5, color: "#5a6282", verticalAlign: "top" }}>
-                  {(() => {
-                    const raw = chapter.raw && chapter.raw[k.key];
-                    if (raw) return raw;
-                    if (k.infoText) return k.infoText;
-                    return "";
-                  })()}
+                  {kpiComment(chapter, k)}
                 </td>
               </tr>
             );
@@ -1351,7 +1515,7 @@ export default function YpoMenaKpiScorecard() {
             <span style={{
               display: "inline-block", width: 6, height: 6, borderRadius: "50%", background: YPO_AMBER,
             }} />
-            Not live {"\u2014"} data is manually updated · Last Updated: 13/10/2026
+            Not live {"\u2014"} data is manually updated · Last Updated: {LAST_UPDATED}
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>

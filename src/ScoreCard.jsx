@@ -1263,18 +1263,17 @@ async function downloadChapterPdf(chapter) {
     margin: { left: M, right: M, bottom: 40 },
     theme: "plain",
     head: [
-      [{ content: `${chapter.name} — KPI Scorecard`, colSpan: 6,
+      [{ content: `${chapter.name} — KPI Scorecard`, colSpan: 5,
          styles: { fillColor: SCHEME_BLUE, textColor: "#ffffff", fontSize: 14, halign: "center", cellPadding: 8 } }],
       [
         { content: "Key Performance Indicator\n*Mandatory for reward highlighted in orange." },
-        "Pts", "Max", "Notes", "Score", "Comments",
+        "Pts", "Max", "Score", "Comments",
       ],
     ],
     body: kpis.map(k => [
-      k.detail ? `${kpiTitle(k)}\n${k.detail}` : kpiTitle(k),
+      [kpiTitle(k), k.detail, k.note].filter(Boolean).join("\n"),
       String(k.pts),
       String(k.max),
-      k.note || "-",
       "",
       kpiComment(chapter, k),
     ]),
@@ -1282,7 +1281,6 @@ async function downloadChapterPdf(chapter) {
       { content: "Total Score", styles: { fillColor: SCHEME_BLUE, textColor: "#ffffff", fontSize: 11 } },
       "",
       String(MAX_SCORE),
-      "",
       String(chapter.totalScore),
       { content: totalsSummary(chapter), styles: { fontSize: 8 } },
     ]],
@@ -1291,12 +1289,11 @@ async function downloadChapterPdf(chapter) {
     bodyStyles: { minCellHeight: 34 },
     footStyles: { fillColor: "#ffffff", textColor: SCHEME_INK, fontStyle: "bold", fontSize: 10 },
     columnStyles: {
-      0: { cellWidth: 178, fontStyle: "bold", fontSize: 8.5 },
-      1: { cellWidth: 28, fontStyle: "bold", fontSize: 10 },
-      2: { cellWidth: 28, fontStyle: "bold", fontSize: 10 },
-      3: { cellWidth: 62, fontSize: 7 },
-      4: { cellWidth: 52 },
-      5: { halign: "left", fontSize: 7.5 },
+      0: { cellWidth: 205, fontStyle: "bold", fontSize: 8.5 },
+      1: { cellWidth: 30, fontStyle: "bold", fontSize: 10 },
+      2: { cellWidth: 30, fontStyle: "bold", fontSize: 10 },
+      3: { cellWidth: 56 },
+      4: { halign: "left", fontSize: 7.5 },
     },
     didParseCell: (data) => {
       if (data.section !== "body") return;
@@ -1306,7 +1303,7 @@ async function downloadChapterPdf(chapter) {
     },
     willDrawCell: (data) => {
       // KPI titles and scores are drawn by hand in didDrawCell.
-      if (data.section === "body" && (data.column.index === 0 || data.column.index === 4)) data.cell.text = [];
+      if (data.section === "body" && (data.column.index === 0 || data.column.index === 3)) data.cell.text = [];
     },
     didDrawCell: (data) => {
       if (data.section !== "body") return;
@@ -1322,8 +1319,11 @@ async function downloadChapterPdf(chapter) {
         doc.setFont("helvetica", "normal");
         doc.setFontSize(6.8);
         const detailLines = k.detail ? doc.splitTextToSize(k.detail, inner) : [];
+        doc.setFont("helvetica", "italic");
+        const noteLines = k.note ? doc.splitTextToSize(k.note, inner) : [];
         const lh1 = 8.5 * 1.15, lh2 = 6.8 * 1.2;
-        let ty = y + (height - (titleLines.length * lh1 + detailLines.length * lh2)) / 2 + 7;
+        const blockH = titleLines.length * lh1 + (detailLines.length + noteLines.length) * lh2 + (noteLines.length ? 2 : 0);
+        let ty = y + (height - blockH) / 2 + 7;
         const cx = x + width / 2;
         doc.setFont("helvetica", "bold");
         doc.setFontSize(8.5);
@@ -1341,7 +1341,12 @@ async function downloadChapterPdf(chapter) {
         doc.setFont("helvetica", "normal");
         doc.setFontSize(6.8);
         detailLines.forEach(line => { doc.text(line, cx, ty, { align: "center" }); ty += lh2; });
-      } else if (data.column.index === 4) {
+        if (noteLines.length) {
+          ty += 2;
+          doc.setFont("helvetica", "italic");
+          noteLines.forEach(line => { doc.text(line, cx, ty, { align: "center" }); ty += lh2; });
+        }
+      } else if (data.column.index === 3) {
         const val = chapter.kpis[k.key];
         const st = kpiStatus(val, k.max);
         const pw = 42, ph = 25, px = x + (width - pw) / 2, py = y + (height - ph) / 2;
@@ -1433,7 +1438,7 @@ function KpiVerticalPanel({ chapter }) {
       }}>
         <thead>
           <tr>
-            <th colSpan={6} style={{ ...SCHEME_CELL, background: SCHEME_BLUE, color: "#fff", padding: "12px 16px" }}>
+            <th colSpan={5} style={{ ...SCHEME_CELL, background: SCHEME_BLUE, color: "#fff", padding: "12px 16px" }}>
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16 }}>
                 <span style={{ width: 130 }} />
                 <span style={{ fontSize: 22, fontWeight: 800 }}>{chapter.name} {"—"} KPI Scorecard</span>
@@ -1442,7 +1447,7 @@ function KpiVerticalPanel({ chapter }) {
             </th>
           </tr>
           <tr style={{ background: "#fff", color: SCHEME_BLUE }}>
-            <th style={{ ...SCHEME_CELL, width: "34%" }}>
+            <th style={{ ...SCHEME_CELL, width: "38%" }}>
               <div style={{ fontSize: 15, fontWeight: 800 }}>Key Performance Indicator</div>
               <div style={{ fontSize: 11.5, fontWeight: 600 }}>
                 *Mandatory for reward highlighted in <span style={{ color: SCHEME_ORANGE, fontWeight: 800 }}>orange</span>.
@@ -1450,7 +1455,6 @@ function KpiVerticalPanel({ chapter }) {
             </th>
             <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800, width: "6%" }}>Pts</th>
             <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800, width: "6%" }}>Max</th>
-            <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800, width: "12%" }}>Notes</th>
             <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800, width: "10%" }}>Score</th>
             <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800 }}>Comments</th>
           </tr>
@@ -1469,10 +1473,12 @@ function KpiVerticalPanel({ chapter }) {
                   {k.detail && (
                     <div style={{ fontSize: 11.5, fontWeight: 500, marginTop: 3, lineHeight: 1.4 }}>{k.detail}</div>
                   )}
+                  {k.note && (
+                    <div style={{ fontSize: 11.5, fontWeight: 600, fontStyle: "italic", marginTop: 4 }}>{k.note}</div>
+                  )}
                 </td>
                 <td style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 600 }}>{k.pts}</td>
                 <td style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 600 }}>{k.max}</td>
-                <td style={{ ...SCHEME_CELL, fontSize: 11.5, fontWeight: 500 }}>{k.note || "-"}</td>
                 <td style={SCHEME_CELL}><ScorePill val={chapter.kpis[k.key]} max={k.max} /></td>
                 <td style={{ ...SCHEME_CELL, textAlign: "left", fontSize: 11.5, fontWeight: 500 }}>{kpiComment(chapter, k)}</td>
               </tr>
@@ -1484,7 +1490,6 @@ function KpiVerticalPanel({ chapter }) {
             <td style={{ ...SCHEME_CELL, background: SCHEME_BLUE, color: "#fff", fontSize: 16, fontWeight: 800 }}>Total Score</td>
             <td style={SCHEME_CELL} />
             <td style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 700 }}>{MAX_SCORE}</td>
-            <td style={SCHEME_CELL} />
             <td style={{ ...SCHEME_CELL, fontSize: 18, fontWeight: 800 }}>{chapter.totalScore}</td>
             <td style={{ ...SCHEME_CELL, textAlign: "left", fontSize: 12, fontWeight: 700 }}>{totalsSummary(chapter)}</td>
           </tr>

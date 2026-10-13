@@ -11,11 +11,16 @@ const YPO_PURPLE = "#6b21a8";
 const YPO_BLUE   = "#1565C0";
 const YPO_BG     = "#f4f6fb";
 
+// Wording, order, points and notes follow the FY26-27 Regional Chapter KPI Scheme.
+// `pts` is the base points, `max` the most a KPI can earn; `prefix` is the underlined
+// "Y and Integrated Only:" / "Gold Only:" lead-in and `detail` the smaller sub-line.
 const KPI_META = [
   {
     "key": "chapter_commitments_12_14",
     "code": "12C",
     "label": "12/14 Chapter Commitments Achieved",
+    "detail": null,
+    "pts": 3,
     "max": 3,
     "mandatory": true,
     "note": null,
@@ -25,27 +30,33 @@ const KPI_META = [
   {
     "key": "mena_mastery_officers",
     "code": "MMA",
-    "label": "2+ Officers Attended MENA Mastery (CC, LO, ALO, FO, MO, MEO, Spouse/Partner Officer, Family Officer)",
+    "label": "2+ Officers Attended MENA Mastery",
+    "detail": "Chapter Chair, Learning Officer, Assistant Learning Officer, Forum Officer, Membership Officer, Member Engagement Officer, Spouse / Partner Officer, Family Officer",
+    "pts": 1,
     "max": 2,
     "mandatory": true,
-    "note": "+1 point for CM Attendance (only once 2+ officers attend)",
+    "note": "+1 Point for CM Attendance (with 2+ officers)",
     "appliesTo": null,
     "infoText": "MENA Mastery planned for 21st November"
   },
   {
     "key": "elect_core_officer_training",
     "code": "ECO",
-    "label": "Training Completed for All Elect Core Officer Positions (CC, LO, ALO, FO, MO for Y/Integrated, MEO for Gold), In-Person or Virtual",
+    "label": "Training Completed for all Elect Core Officer Positions",
+    "detail": "Chapter Chair, Learning Officer, Assistant Learning Officer, Forum Officer, Membership Officer (Y and Integrated Chapters), Member Engagement Officer (Gold Chapters only), either in-person or virtually.",
+    "pts": 2,
     "max": 2,
     "mandatory": true,
     "note": null,
     "appliesTo": null,
-    "infoText": "GLC registration opens 1 Nov 2026 \u00b7 GLC Bangkok: 15\u201317 March 2027 \u00b7 GLC San Diego: 3\u20135 May 2027"
+    "infoText": "GLC registration opens 1 Nov 2026 · GLC Bangkok: 15–17 March 2027 · GLC San Diego: 3–5 May 2027"
   },
   {
     "key": "playbook_signed",
     "code": "PBK",
-    "label": "Chapter Chair Signed to Confirm Receipt of YPO MENA Playbook",
+    "label": "Chapter Chairs to Sign to Confirm Receipt of the YPO MENA Playbook",
+    "detail": null,
+    "pts": 2,
     "max": 2,
     "mandatory": true,
     "note": null,
@@ -55,17 +66,21 @@ const KPI_META = [
   {
     "key": "cm_workshop_attendance",
     "code": "CMW",
-    "label": "Chapter Manager to Attend CM Workshop and Share Learnings with Chapter Board",
+    "label": "Chapter Managers to Attend Chapter Manager Workshop and Share Learnings with Chapter Board",
+    "detail": null,
+    "pts": 5,
     "max": 5,
     "mandatory": true,
     "note": null,
     "appliesTo": null,
-    "infoText": "EMEA: 25\u201329 Jan 2027, Lisbon, Portugal \u00b7 Americas: 1\u20135 Mar 2027, Cancun, Mexico \u00b7 Asia/Pacific: 5\u20139 Apr 2027, Hanoi, Vietnam"
+    "infoText": "EMEA: 25–29 Jan 2027, Lisbon, Portugal · Americas: 1–5 Mar 2027, Cancun, Mexico · Asia/Pacific: 5–9 Apr 2027, Hanoi, Vietnam"
   },
   {
     "key": "forum_100pct_trained",
     "code": "FMT",
     "label": "100% of Members Forum Trained",
+    "detail": null,
+    "pts": 2,
     "max": 2,
     "mandatory": false,
     "note": null,
@@ -75,17 +90,21 @@ const KPI_META = [
   {
     "key": "apeiron_80pct",
     "code": "APE",
-    "label": "80% of New Members Attended Apeiron (In-Person or Virtual)",
+    "label": "80% of New Members Attended Apeiron",
+    "detail": "In-Person or Virtual",
+    "pts": 1,
     "max": 2,
     "mandatory": false,
     "note": "1pt for virtual",
     "appliesTo": null,
-    "infoText": "Apeiron Dubai: 18\u201319 November 2026"
+    "infoText": "Apeiron Dubai: 18–19 November 2026"
   },
   {
     "key": "game_plan_submission",
     "code": "GPS",
-    "label": "Submission of FY26-27 Chapter Game Plan / Strategic Plan",
+    "label": "Submission of FY26-27 Chapter Game Plan",
+    "detail": null,
+    "pts": 1,
     "max": 1,
     "mandatory": false,
     "note": null,
@@ -95,17 +114,21 @@ const KPI_META = [
   {
     "key": "engagement_70pct",
     "code": "ENG",
-    "label": "70% Members 'Highly Engaged' and 'Engaged' Combined",
+    "label": "70% Members 'Highly Engaged' and 'Engaged' combined",
+    "detail": null,
+    "pts": 1,
     "max": 2,
     "mandatory": false,
-    "note": "+1pt for 71%+",
+    "note": "+1 pt for 71%+",
     "appliesTo": null,
     "infoText": null
   },
   {
     "key": "rc_rd_chapter_visit",
     "code": "RCV",
-    "label": "1 Regional Chair / Regional Director Chapter Visit Completed (Game Plan / Strategic Planning Session, or Virtual / In-Person Board Meeting)",
+    "label": "1 Regional Chair / Regional Director Chapter Visit Completed",
+    "detail": "Game Plan / Strategic Planning Session, Virtual or In-Person Board Meeting",
+    "pts": 1,
     "max": 1,
     "mandatory": false,
     "note": null,
@@ -116,29 +139,37 @@ const KPI_META = [
     "key": "open_chapter_event",
     "code": "OCE",
     "label": "1 Chapter Event Open to the Region",
+    "detail": null,
+    "pts": 1,
     "max": 2,
     "mandatory": false,
-    "note": "+1pt for 2+ events",
+    "note": "+1 point for 2+ events",
     "appliesTo": null,
     "infoText": null
   },
   {
     "key": "new_members_under_40",
     "code": "U40",
-    "label": "Y and Integrated Only: 40% of New Members Under 40",
+    "prefix": "Y and Integrated Only:",
+    "label": "40% of New Members under 40",
+    "detail": null,
+    "pts": 1,
     "max": 2,
     "mandatory": false,
-    "note": "+1pt for 41%+",
+    "note": "+1 pt for 41%+",
     "appliesTo": "Y_INTEGRATED",
     "infoText": null
   },
   {
     "key": "champion_positions_20pct",
     "code": "CHP",
-    "label": "Gold Only: 20% of Members with Champion Positions",
+    "prefix": "Gold Only:",
+    "label": "20% of members with Champion positions",
+    "detail": null,
+    "pts": 1,
     "max": 2,
     "mandatory": false,
-    "note": "+1pt for 21%+",
+    "note": "+1 pt for 21%+",
     "appliesTo": "GOLD",
     "infoText": null
   }
@@ -1075,13 +1106,6 @@ function kpiStatus(value, max) {
   return "zero";
 }
 
-const STATUS_STYLE = {
-  full:    { bg: YPO_GREEN,  icon: "\u2713" },
-  partial: { bg: YPO_AMBER,  icon: "\u25D1" },
-  zero:    { bg: YPO_RED,    icon: "\u2717" },
-  missing: { bg: YPO_PURPLE, icon: "?" },
-};
-
 const TIER_BADGE_STYLE = {
   Elite:          { bg: "#FBF1DD", color: "#9a6800" },
   Master:         { bg: "#E8EDF7", color: YPO_NAVY },
@@ -1140,10 +1164,33 @@ function kpiComment(chapter, k) {
 }
 
 const STATUS_LABEL = { full: "Met", partial: "Partial", zero: "Not met", missing: "Pending" };
+const STATUS_COLOR = { full: YPO_GREEN, partial: YPO_AMBER, zero: YPO_RED, missing: YPO_PURPLE };
+
+// Colours of the FY26-27 Regional Chapter KPI Scheme table.
+const SCHEME_BLUE   = "#0061A8";
+const SCHEME_ORANGE = "#E87511";
+const SCHEME_GOLD   = "#D4A024";
+const SCHEME_INK    = "#0B3A6E";
+const SCHEME_LINE   = "#1d2433";
+
+// Mandatory KPIs are orange, chapter-type KPIs gold, everything else white.
+function kpiRowColors(k) {
+  if (k.mandatory) return { bg: SCHEME_ORANGE, fg: "#ffffff" };
+  if (k.appliesTo) return { bg: SCHEME_GOLD, fg: "#ffffff" };
+  return { bg: "#ffffff", fg: SCHEME_INK };
+}
+
+function kpiTitle(k) {
+  return `${k.prefix ? `${k.prefix} ` : ""}${k.label}${k.mandatory ? "*" : ""}`;
+}
+
+function totalsSummary(chapter) {
+  return `Tier: ${chapter.tier} · Mandatory met: ${chapter.mandatoryMet === "Yes" ? "Yes" : "No"}`;
+}
 
 // The embedded logo is white on black; the header hides the black with a "screen"
-// blend. Do the same blend on a canvas so the PDF gets a white-on-navy logo.
-function logoOnNavy() {
+// blend. Do the same blend on a canvas so the PDF gets a white logo on `color`.
+function logoOnColor(color) {
   return new Promise((resolve, reject) => {
     const img = new Image();
     img.onload = () => {
@@ -1151,7 +1198,7 @@ function logoOnNavy() {
       canvas.width = img.naturalWidth;
       canvas.height = img.naturalHeight;
       const ctx = canvas.getContext("2d");
-      ctx.fillStyle = YPO_NAVY;
+      ctx.fillStyle = color;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.globalCompositeOperation = "screen";
       ctx.drawImage(img, 0, 0);
@@ -1164,84 +1211,150 @@ function logoOnNavy() {
 
 async function downloadChapterPdf(chapter) {
   const [{ jsPDF }, { default: autoTable }, logo] = await Promise.all([
-    import("jspdf"), import("jspdf-autotable"), logoOnNavy(),
+    import("jspdf"), import("jspdf-autotable"), logoOnColor(SCHEME_BLUE),
   ]);
   const doc = new jsPDF({ unit: "pt", format: "a4" });
   const W = doc.internal.pageSize.getWidth();
   const H = doc.internal.pageSize.getHeight();
-  const M = 40;
+  const M = 36;
 
   // Header band
-  doc.setFillColor(YPO_NAVY);
-  doc.rect(0, 0, W, 92, "F");
-  const logoH = 60, logoW = logoH * logo.w / logo.h;
-  doc.addImage(logo.data, "JPEG", W - logoW - 6, 16, logoW, logoH);
+  doc.setFillColor(SCHEME_BLUE);
+  doc.rect(0, 0, W, 84, "F");
+  const logoH = 56, logoW = logoH * logo.w / logo.h;
+  doc.addImage(logo.data, "JPEG", W - logoW - 4, 14, logoW, logoH);
   doc.setTextColor("#ffffff");
   doc.setFont("helvetica", "bold");
-  doc.setFontSize(19);
-  doc.text("MENA FY26-27 KPI Scorecard", M, 44);
+  doc.setFontSize(18);
+  doc.text("MENA FY26-27 KPI Scorecard", M, 40);
   doc.setFont("helvetica", "normal");
-  doc.setFontSize(9);
-  doc.setTextColor("#c5cde0");
-  doc.text(`Last Updated: ${LAST_UPDATED}  \u00b7  Not live \u2014 data is manually updated`, M, 64);
-
-  // Chapter name
-  doc.setTextColor(YPO_NAVY);
-  doc.setFont("helvetica", "bold");
-  doc.setFontSize(17);
-  doc.text(chapter.name, M, 128);
+  doc.setFontSize(8.5);
+  doc.setTextColor("#d6e4f3");
+  doc.text(`Last Updated: ${LAST_UPDATED}  ·  Not live — data is manually updated`, M, 58);
 
   // Summary tiles
   const tiles = [
-    ["Health Status", chapter.healthStatus ? `${chapter.healthStatus}${chapter.healthScore != null ? ` \u00b7 ${chapter.healthScore}` : ""}` : "\u2014"],
+    ["Health Status", chapter.healthStatus ? `${chapter.healthStatus}${chapter.healthScore != null ? ` · ${chapter.healthScore}` : ""}` : "—"],
     ["Total Score", `${chapter.totalScore} / ${MAX_SCORE}`],
     ["Mandatory Met", chapter.mandatoryMet === "Yes" ? "Yes" : "No"],
     ["Tier", chapter.tier],
   ];
-  const gap = 10, tileW = (W - 2 * M - gap * (tiles.length - 1)) / tiles.length, tileY = 144;
+  const gap = 8, tileW = (W - 2 * M - gap * (tiles.length - 1)) / tiles.length, tileY = 100;
   tiles.forEach(([label, value], i) => {
     const x = M + i * (tileW + gap);
-    doc.setFillColor("#f3f5fa");
-    doc.setDrawColor("#e2e6f0");
-    doc.roundedRect(x, tileY, tileW, 50, 5, 5, "FD");
+    doc.setFillColor("#ffffff");
+    doc.setDrawColor(SCHEME_LINE);
+    doc.setLineWidth(0.8);
+    doc.rect(x, tileY, tileW, 44, "FD");
     doc.setFont("helvetica", "bold");
-    doc.setFontSize(7.5);
-    doc.setTextColor("#8892b0");
-    doc.text(label.toUpperCase(), x + 10, tileY + 17);
-    doc.setFontSize(13);
-    doc.setTextColor(label === "Mandatory Met" ? (chapter.mandatoryMet === "Yes" ? YPO_GREEN : YPO_RED) : YPO_NAVY);
-    doc.text(value, x + 10, tileY + 38);
+    doc.setFontSize(7);
+    doc.setTextColor(SCHEME_BLUE);
+    doc.text(label.toUpperCase(), x + tileW / 2, tileY + 15, { align: "center" });
+    doc.setFontSize(12);
+    doc.setTextColor(label === "Mandatory Met" ? (chapter.mandatoryMet === "Yes" ? YPO_GREEN : YPO_RED) : SCHEME_INK);
+    doc.text(value, x + tileW / 2, tileY + 34, { align: "center" });
   });
 
-  // KPI table
+  // KPI table, laid out like the scheme document
   const kpis = applicableKpis(chapter);
-  const statusColor = { full: YPO_GREEN, partial: YPO_AMBER, zero: YPO_RED, missing: YPO_PURPLE };
+  const border = { lineColor: SCHEME_LINE, lineWidth: 0.8 };
   autoTable(doc, {
-    startY: tileY + 68,
-    margin: { left: M, right: M },
-    head: [["KPI", "Score", "Status", "Comments"]],
-    body: kpis.map(k => {
-      const val = chapter.kpis[k.key];
-      const sub = [k.mandatory ? "MANDATORY" : null, k.note].filter(Boolean).join(" \u00b7 ");
-      return [
-        sub ? `${k.label}\n${sub}` : k.label,
-        val === null || val === undefined ? "\u2013" : `${val} / ${k.max}`,
-        STATUS_LABEL[kpiStatus(val, k.max)],
-        kpiComment(chapter, k),
-      ];
-    }),
-    styles: { font: "helvetica", fontSize: 8.5, cellPadding: 6, textColor: "#3a4260", lineColor: "#e2e6f0", lineWidth: 0.5, valign: "top" },
-    headStyles: { fillColor: YPO_NAVY, textColor: "#ffffff", fontStyle: "bold", fontSize: 8 },
-    alternateRowStyles: { fillColor: "#fafbfd" },
+    startY: tileY + 58,
+    margin: { left: M, right: M, bottom: 40 },
+    theme: "plain",
+    head: [
+      [{ content: `${chapter.name} — KPI Scorecard`, colSpan: 6,
+         styles: { fillColor: SCHEME_BLUE, textColor: "#ffffff", fontSize: 14, halign: "center", cellPadding: 8 } }],
+      [
+        { content: "Key Performance Indicator\n*Mandatory for reward highlighted in orange." },
+        "Pts", "Max", "Notes", "Score", "Comments",
+      ],
+    ],
+    body: kpis.map(k => [
+      k.detail ? `${kpiTitle(k)}\n${k.detail}` : kpiTitle(k),
+      String(k.pts),
+      String(k.max),
+      k.note || "-",
+      "",
+      kpiComment(chapter, k),
+    ]),
+    foot: [[
+      { content: "Total Score", styles: { fillColor: SCHEME_BLUE, textColor: "#ffffff", fontSize: 11 } },
+      "",
+      String(MAX_SCORE),
+      "",
+      String(chapter.totalScore),
+      { content: totalsSummary(chapter), styles: { fontSize: 8 } },
+    ]],
+    styles: { font: "helvetica", fontSize: 8, cellPadding: 5, valign: "middle", halign: "center", textColor: SCHEME_INK, ...border },
+    headStyles: { fillColor: "#ffffff", textColor: SCHEME_BLUE, fontStyle: "bold", fontSize: 9 },
+    bodyStyles: { minCellHeight: 34 },
+    footStyles: { fillColor: "#ffffff", textColor: SCHEME_INK, fontStyle: "bold", fontSize: 10 },
     columnStyles: {
-      0: { cellWidth: 205, textColor: YPO_NAVY, fontStyle: "bold" },
-      1: { cellWidth: 48, halign: "center" },
-      2: { cellWidth: 52, fontStyle: "bold" },
+      0: { cellWidth: 178, fontStyle: "bold", fontSize: 8.5 },
+      1: { cellWidth: 28, fontStyle: "bold", fontSize: 10 },
+      2: { cellWidth: 28, fontStyle: "bold", fontSize: 10 },
+      3: { cellWidth: 62, fontSize: 7 },
+      4: { cellWidth: 52 },
+      5: { halign: "left", fontSize: 7.5 },
     },
     didParseCell: (data) => {
-      if (data.section === "body" && data.column.index === 2) {
-        const k = kpis[data.row.index];
-        data.cell.styles.textColor = statusColor[kpiStatus(chapter.kpis[k.key], k.max)];
+      if (data.section !== "body") return;
+      const c = kpiRowColors(kpis[data.row.index]);
+      data.cell.styles.fillColor = c.bg;
+      data.cell.styles.textColor = c.fg;
+    },
+    willDrawCell: (data) => {
+      // KPI titles and scores are drawn by hand in didDrawCell.
+      if (data.section === "body" && (data.column.index === 0 || data.column.index === 4)) data.cell.text = [];
+    },
+    didDrawCell: (data) => {
+      if (data.section !== "body") return;
+      const k = kpis[data.row.index];
+      const { x, y, width, height } = data.cell;
+      if (data.column.index === 0) {
+        const inner = width - 10;
+        const c = kpiRowColors(k);
+        doc.setTextColor(c.fg);
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(8.5);
+        const titleLines = doc.splitTextToSize(kpiTitle(k), inner);
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(6.8);
+        const detailLines = k.detail ? doc.splitTextToSize(k.detail, inner) : [];
+        const lh1 = 8.5 * 1.15, lh2 = 6.8 * 1.2;
+        let ty = y + (height - (titleLines.length * lh1 + detailLines.length * lh2)) / 2 + 7;
+        const cx = x + width / 2;
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(8.5);
+        titleLines.forEach((line, i) => {
+          doc.text(line, cx, ty, { align: "center" });
+          // Underline the "Gold Only:" style prefix, as in the scheme document.
+          if (i === 0 && k.prefix && line.startsWith(k.prefix)) {
+            const sx = cx - doc.getTextWidth(line) / 2;
+            doc.setDrawColor(c.fg);
+            doc.setLineWidth(0.6);
+            doc.line(sx, ty + 1.5, sx + doc.getTextWidth(k.prefix), ty + 1.5);
+          }
+          ty += lh1;
+        });
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(6.8);
+        detailLines.forEach(line => { doc.text(line, cx, ty, { align: "center" }); ty += lh2; });
+      } else if (data.column.index === 4) {
+        const val = chapter.kpis[k.key];
+        const st = kpiStatus(val, k.max);
+        const pw = 42, ph = 25, px = x + (width - pw) / 2, py = y + (height - ph) / 2;
+        doc.setFillColor("#ffffff");
+        doc.setDrawColor(STATUS_COLOR[st]);
+        doc.setLineWidth(1);
+        doc.roundedRect(px, py, pw, ph, 4, 4, "FD");
+        doc.setTextColor(STATUS_COLOR[st]);
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(9.5);
+        doc.text(val === null || val === undefined ? "–" : `${val} / ${k.max}`, px + pw / 2, py + 11, { align: "center" });
+        doc.setFontSize(6);
+        doc.text(STATUS_LABEL[st].toUpperCase(), px + pw / 2, py + 20, { align: "center" });
       }
     },
   });
@@ -1252,9 +1365,9 @@ async function downloadChapterPdf(chapter) {
     doc.setPage(i);
     doc.setFont("helvetica", "normal");
     doc.setFontSize(7.5);
-    doc.setTextColor("#8892b0");
-    doc.text(`Advanced 20\u201322 pts \u00b7 Master 23\u201324 pts \u00b7 Elite 25\u201326 pts \u00b7 reward requires all mandatory KPIs`, M, H - 24);
-    doc.text(`Page ${i} of ${pages}`, W - M, H - 24, { align: "right" });
+    doc.setTextColor("#6b7591");
+    doc.text("Chapter Rewards: Advanced 20–22 pts · Master 23–24 pts · Elite 25–26 pts (all mandatory KPIs required)", M, H - 20);
+    doc.text(`Page ${i} of ${pages}`, W - M, H - 20, { align: "right" });
   }
 
   doc.save(`${chapter.name} - KPI Scorecard ${LAST_UPDATED.replace(/\//g, "-")}.pdf`);
@@ -1279,67 +1392,103 @@ function PdfButton({ chapter }) {
       disabled={busy}
       style={{
         display: "inline-flex", alignItems: "center", gap: 6,
-        background: YPO_ORANGE, color: "#fff", border: "none", borderRadius: 6,
+        background: SCHEME_ORANGE, color: "#fff", border: "1px solid rgba(255,255,255,0.55)", borderRadius: 6,
         padding: "6px 14px", fontSize: 11.5, fontWeight: 800, letterSpacing: "0.02em",
-        cursor: busy ? "wait" : "pointer", opacity: busy ? 0.7 : 1, fontFamily: "inherit",
-        boxShadow: "0 1px 4px rgba(219,124,46,0.35)",
+        cursor: busy ? "wait" : "pointer", opacity: busy ? 0.7 : 1, fontFamily: "inherit", whiteSpace: "nowrap",
       }}
     >
-      <span style={{ fontSize: 13 }}>{"\u2913"}</span>
-      {busy ? "Preparing PDF\u2026" : "Download PDF"}
+      <span style={{ fontSize: 13 }}>{"⤓"}</span>
+      {busy ? "Preparing PDF…" : "Download PDF"}
     </button>
   );
 }
 
+function ScorePill({ val, max }) {
+  const st = kpiStatus(val, max);
+  const color = STATUS_COLOR[st];
+  return (
+    <span style={{
+      display: "inline-flex", flexDirection: "column", alignItems: "center", minWidth: 62,
+      background: "#fff", border: `1.5px solid ${color}`, borderRadius: 6, padding: "4px 8px", color,
+    }}>
+      <span style={{ fontSize: 14, fontWeight: 800, fontVariantNumeric: "tabular-nums" }}>
+        {val === null || val === undefined ? "–" : `${val} / ${max}`}
+      </span>
+      <span style={{ fontSize: 8.5, fontWeight: 800, letterSpacing: "0.06em", textTransform: "uppercase" }}>
+        {STATUS_LABEL[st]}
+      </span>
+    </span>
+  );
+}
+
+const SCHEME_CELL = { border: `1px solid ${SCHEME_LINE}`, padding: "10px 12px", textAlign: "center", verticalAlign: "middle" };
+
 function KpiVerticalPanel({ chapter }) {
   const rows = applicableKpis(chapter);
   return (
-    <div style={{ padding: "16px 24px 20px 54px", maxWidth: 720 }}>
-      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 10 }}>
-        <PdfButton chapter={chapter} />
-      </div>
-      <table style={{ width: "100%", borderCollapse: "collapse", background: "#fff", border: "1px solid #e2e6f0", borderRadius: 7, overflow: "hidden" }}>
+    <div style={{ padding: "16px 24px 22px", overflowX: "auto" }}>
+      <table style={{
+        width: "100%", minWidth: 900, maxWidth: 1180, margin: "0 auto", borderCollapse: "collapse",
+        fontFamily: "'Montserrat','Plus Jakarta Sans',system-ui,sans-serif", border: `2px solid ${SCHEME_LINE}`,
+      }}>
         <thead>
-          <tr style={{ background: "#f3f5fa" }}>
-            <th style={{ textAlign: "left", padding: "8px 14px", fontSize: 10, fontWeight: 800, color: "#8892b0", letterSpacing: "0.08em", textTransform: "uppercase", borderBottom: "1px solid #e2e6f0" }}>KPI</th>
-            <th style={{ textAlign: "center", padding: "8px 14px", fontSize: 10, fontWeight: 800, color: "#8892b0", letterSpacing: "0.08em", textTransform: "uppercase", borderBottom: "1px solid #e2e6f0", width: 90 }}>Score</th>
-            <th style={{ textAlign: "left", padding: "8px 14px", fontSize: 10, fontWeight: 800, color: "#8892b0", letterSpacing: "0.08em", textTransform: "uppercase", borderBottom: "1px solid #e2e6f0" }}>Comments</th>
+          <tr>
+            <th colSpan={6} style={{ ...SCHEME_CELL, background: SCHEME_BLUE, color: "#fff", padding: "12px 16px" }}>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16 }}>
+                <span style={{ width: 130 }} />
+                <span style={{ fontSize: 22, fontWeight: 800 }}>{chapter.name} {"—"} KPI Scorecard</span>
+                <span style={{ width: 130, display: "flex", justifyContent: "flex-end" }}><PdfButton chapter={chapter} /></span>
+              </div>
+            </th>
+          </tr>
+          <tr style={{ background: "#fff", color: SCHEME_BLUE }}>
+            <th style={{ ...SCHEME_CELL, width: "34%" }}>
+              <div style={{ fontSize: 15, fontWeight: 800 }}>Key Performance Indicator</div>
+              <div style={{ fontSize: 11.5, fontWeight: 600 }}>
+                *Mandatory for reward highlighted in <span style={{ color: SCHEME_ORANGE, fontWeight: 800 }}>orange</span>.
+              </div>
+            </th>
+            <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800, width: "6%" }}>Pts</th>
+            <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800, width: "6%" }}>Max</th>
+            <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800, width: "12%" }}>Notes</th>
+            <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800, width: "10%" }}>Score</th>
+            <th style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 800 }}>Comments</th>
           </tr>
         </thead>
         <tbody>
-          {rows.map((k, i) => {
-            const val = chapter.kpis[k.key];
-            const st = kpiStatus(val, k.max);
-            const s = STATUS_STYLE[st];
+          {rows.map(k => {
+            const c = kpiRowColors(k);
             return (
-              <tr key={k.key} style={{ borderTop: i === 0 ? "none" : "1px solid #eef0f6" }}>
-                <td style={{ padding: "8px 14px", fontSize: 12.5, fontWeight: 600, color: YPO_NAVY, verticalAlign: "top" }}>
-                  <span style={{
-                    display: "inline-flex", width: 20, height: 20, borderRadius: 5, background: s.bg, color: "#fff",
-                    alignItems: "center", justifyContent: "center", fontSize: 11, fontWeight: 800, marginRight: 8, verticalAlign: "middle",
-                  }}>
-                    {s.icon}
-                  </span>
-                  {k.label}
-                  {k.mandatory && (
-                    <span style={{ color: YPO_RED, fontSize: 9, marginLeft: 6, fontWeight: 800, letterSpacing: "0.04em" }}>
-                      MANDATORY
-                    </span>
-                  )}
-                  {k.note && (
-                    <div style={{ fontSize: 10.5, fontWeight: 500, color: "#8892b0", marginTop: 1 }}>{k.note}</div>
+              <tr key={k.key} style={{ background: c.bg, color: c.fg }}>
+                <td style={SCHEME_CELL}>
+                  <div style={{ fontSize: 14.5, fontWeight: 800, lineHeight: 1.3 }}>
+                    {k.prefix && <span style={{ textDecoration: "underline" }}>{k.prefix}</span>}
+                    {k.prefix && " "}
+                    {k.label}{k.mandatory ? "*" : ""}
+                  </div>
+                  {k.detail && (
+                    <div style={{ fontSize: 11.5, fontWeight: 500, marginTop: 3, lineHeight: 1.4 }}>{k.detail}</div>
                   )}
                 </td>
-                <td style={{ padding: "8px 14px", fontSize: 12, fontWeight: 700, color: "#5a6282", fontVariantNumeric: "tabular-nums", textAlign: "center", verticalAlign: "top" }}>
-                  {val === null ? "\u2014" : `${val} / ${k.max}`}
-                </td>
-                <td style={{ padding: "8px 14px", fontSize: 11.5, color: "#5a6282", verticalAlign: "top" }}>
-                  {kpiComment(chapter, k)}
-                </td>
+                <td style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 600 }}>{k.pts}</td>
+                <td style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 600 }}>{k.max}</td>
+                <td style={{ ...SCHEME_CELL, fontSize: 11.5, fontWeight: 500 }}>{k.note || "-"}</td>
+                <td style={SCHEME_CELL}><ScorePill val={chapter.kpis[k.key]} max={k.max} /></td>
+                <td style={{ ...SCHEME_CELL, textAlign: "left", fontSize: 11.5, fontWeight: 500 }}>{kpiComment(chapter, k)}</td>
               </tr>
             );
           })}
         </tbody>
+        <tfoot>
+          <tr style={{ background: "#fff", color: SCHEME_INK }}>
+            <td style={{ ...SCHEME_CELL, background: SCHEME_BLUE, color: "#fff", fontSize: 16, fontWeight: 800 }}>Total Score</td>
+            <td style={SCHEME_CELL} />
+            <td style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 700 }}>{MAX_SCORE}</td>
+            <td style={SCHEME_CELL} />
+            <td style={{ ...SCHEME_CELL, fontSize: 18, fontWeight: 800 }}>{chapter.totalScore}</td>
+            <td style={{ ...SCHEME_CELL, textAlign: "left", fontSize: 12, fontWeight: 700 }}>{totalsSummary(chapter)}</td>
+          </tr>
+        </tfoot>
       </table>
     </div>
   );
@@ -1518,7 +1667,7 @@ export default function YpoMenaKpiScorecard() {
       style={{ fontFamily: "'Neue Montreal','Plus Jakarta Sans','DM Sans',system-ui,sans-serif", background: YPO_BG, minHeight: "100vh" }}
     >
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800&display=swap');
         * { box-sizing: border-box; }
         ::-webkit-scrollbar { width: 4px; height: 4px; }
         ::-webkit-scrollbar-track { background: #e2e6f0; }

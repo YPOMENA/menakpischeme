@@ -8,7 +8,10 @@ Regional Chapter KPI Scheme.
 A single self-contained React component (`src/ScoreCard.jsx`) that renders:
 
 - A sortable (A→Z by default, or by score) table of all 27 chapters
-- Each row expands into a 3-column KPI breakdown: **KPI / Score / Comments**
+- Each row expands into a KPI breakdown styled like the FY26-27 Regional Chapter KPI
+  Scheme table: **KPI / Pts / Max / Score / Comments**
+- **+ Add comment** on any KPI: comments are saved in your browser only (localStorage),
+  not shared with other viewers, and are included in that chapter's PDF
 - A **Health Status** column (Platinum / Silver / Gold / Bronze) pulled from the
   Chapter Health Score report
 - Mandatory-KPI tracking — a chapter can only reach a reward tier (Advanced /

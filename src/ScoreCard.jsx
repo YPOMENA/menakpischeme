@@ -1156,6 +1156,31 @@ function applicableKpis(chapter) {
   });
 }
 
+// Comments added on the dashboard are kept only in this browser's localStorage,
+// as { [chapter name]: { [kpi key]: text } }.
+const USER_COMMENTS_KEY = "ypoMenaKpiComments:v1";
+
+function loadUserComments() {
+  try {
+    return JSON.parse(localStorage.getItem(USER_COMMENTS_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveUserComment(chapterName, kpiKey, text) {
+  const all = loadUserComments();
+  const forChapter = { ...(all[chapterName] || {}) };
+  if (text) forChapter[kpiKey] = text; else delete forChapter[kpiKey];
+  all[chapterName] = forChapter;
+  try {
+    localStorage.setItem(USER_COMMENTS_KEY, JSON.stringify(all));
+  } catch {
+    // Storage unavailable (private mode, blocked site data): keep it for this visit only.
+  }
+  return forChapter;
+}
+
 function kpiComment(chapter, k) {
   const raw = chapter.raw && chapter.raw[k.key];
   if (raw) return raw;
@@ -1209,7 +1234,7 @@ function logoOnColor(color) {
   });
 }
 
-async function downloadChapterPdf(chapter) {
+async function downloadChapterPdf(chapter, userComments = {}) {
   const [{ jsPDF }, { default: autoTable }, logo] = await Promise.all([
     import("jspdf"), import("jspdf-autotable"), logoOnColor(SCHEME_BLUE),
   ]);
@@ -1275,7 +1300,7 @@ async function downloadChapterPdf(chapter) {
       String(k.pts),
       String(k.max),
       "",
-      kpiComment(chapter, k),
+      [kpiComment(chapter, k), userComments[k.key] && `Comment: ${userComments[k.key]}`].filter(Boolean).join("\n"),
     ]),
     foot: [[
       { content: "Total Score", styles: { fillColor: SCHEME_BLUE, textColor: "#ffffff", fontSize: 11 } },
@@ -1378,12 +1403,12 @@ async function downloadChapterPdf(chapter) {
   doc.save(`${chapter.name} - KPI Scorecard ${LAST_UPDATED.replace(/\//g, "-")}.pdf`);
 }
 
-function PdfButton({ chapter }) {
+function PdfButton({ chapter, userComments }) {
   const [busy, setBusy] = useState(false);
   const onClick = async () => {
     setBusy(true);
     try {
-      await downloadChapterPdf(chapter);
+      await downloadChapterPdf(chapter, userComments);
     } catch (err) {
       console.error(err);
       alert("Sorry, the PDF could not be created.");
@@ -1428,8 +1453,60 @@ function ScorePill({ val, max }) {
 
 const SCHEME_CELL = { border: `1px solid ${SCHEME_LINE}`, padding: "10px 12px", textAlign: "center", verticalAlign: "middle" };
 
+const COMMENT_BUTTON = {
+  background: "rgba(255,255,255,0.85)", color: SCHEME_INK, border: `1px solid ${SCHEME_LINE}33`, borderRadius: 4,
+  padding: "2px 8px", fontSize: 10.5, fontWeight: 700, cursor: "pointer", fontFamily: "inherit",
+};
+
+function CommentCell({ base, value, onSave }) {
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState(value || "");
+  const start = () => { setDraft(value || ""); setEditing(true); };
+  const save = () => { onSave(draft.trim()); setEditing(false); };
+  return (
+    <div>
+      {base && <div>{base}</div>}
+      {value && !editing && (
+        <div style={{ marginTop: base ? 6 : 0, paddingLeft: 8, borderLeft: "3px solid currentColor", fontWeight: 600, whiteSpace: "pre-wrap" }}>
+          {value}
+        </div>
+      )}
+      {editing ? (
+        <div style={{ marginTop: 6 }}>
+          <textarea
+            autoFocus
+            rows={3}
+            value={draft}
+            onChange={e => setDraft(e.target.value)}
+            onKeyDown={e => {
+              if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) save();
+              if (e.key === "Escape") setEditing(false);
+            }}
+            placeholder={"Add a comment\u2026"}
+            style={{
+              width: "100%", boxSizing: "border-box", resize: "vertical", border: `1px solid ${SCHEME_LINE}`, borderRadius: 4,
+              padding: "6px 8px", fontSize: 12, fontFamily: "inherit", color: SCHEME_INK, background: "#fff",
+            }}
+          />
+          <div style={{ display: "flex", gap: 6, marginTop: 4 }}>
+            <button onClick={save} style={{ ...COMMENT_BUTTON, background: SCHEME_BLUE, color: "#fff" }}>Save</button>
+            <button onClick={() => setEditing(false)} style={COMMENT_BUTTON}>Cancel</button>
+          </div>
+        </div>
+      ) : (
+        <div style={{ display: "flex", gap: 6, marginTop: 6 }}>
+          <button onClick={start} style={COMMENT_BUTTON}>{value ? "Edit comment" : "+ Add comment"}</button>
+          {value && <button onClick={() => onSave("")} style={COMMENT_BUTTON}>Remove</button>}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function KpiVerticalPanel({ chapter }) {
   const rows = applicableKpis(chapter);
+  const [userComments, setUserComments] = useState(() => loadUserComments()[chapter.name] || {});
+  const setComment = (kpiKey, text) => setUserComments(saveUserComment(chapter.name, kpiKey, text));
   return (
     <div style={{ padding: "16px 24px 22px", overflowX: "auto" }}>
       <table style={{
@@ -1442,7 +1519,7 @@ function KpiVerticalPanel({ chapter }) {
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16 }}>
                 <span style={{ width: 130 }} />
                 <span style={{ fontSize: 22, fontWeight: 800 }}>{chapter.name} {"—"} KPI Scorecard</span>
-                <span style={{ width: 130, display: "flex", justifyContent: "flex-end" }}><PdfButton chapter={chapter} /></span>
+                <span style={{ width: 130, display: "flex", justifyContent: "flex-end" }}><PdfButton chapter={chapter} userComments={userComments} /></span>
               </div>
             </th>
           </tr>
@@ -1480,7 +1557,13 @@ function KpiVerticalPanel({ chapter }) {
                 <td style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 600 }}>{k.pts}</td>
                 <td style={{ ...SCHEME_CELL, fontSize: 15, fontWeight: 600 }}>{k.max}</td>
                 <td style={SCHEME_CELL}><ScorePill val={chapter.kpis[k.key]} max={k.max} /></td>
-                <td style={{ ...SCHEME_CELL, textAlign: "left", fontSize: 11.5, fontWeight: 500 }}>{kpiComment(chapter, k)}</td>
+                <td style={{ ...SCHEME_CELL, textAlign: "left", fontSize: 11.5, fontWeight: 500 }}>
+                  <CommentCell
+                    base={kpiComment(chapter, k)}
+                    value={userComments[k.key]}
+                    onSave={text => setComment(k.key, text)}
+                  />
+                </td>
               </tr>
             );
           })}

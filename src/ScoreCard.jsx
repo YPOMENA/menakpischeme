@@ -25,7 +25,7 @@ const KPI_META = [
   {
     "key": "mena_mastery_officers",
     "code": "MMA",
-    "label": "2+ Officers Attended MENA Mastery",
+    "label": "2+ Officers Attended MENA Mastery (CC, LO, ALO, FO, MO, MEO, Spouse/Partner Officer, Family Officer)",
     "max": 2,
     "mandatory": true,
     "note": "+1 point for CM Attendance",
@@ -35,7 +35,7 @@ const KPI_META = [
   {
     "key": "elect_core_officer_training",
     "code": "ECO",
-    "label": "Training Completed for All Elect Core Officer Positions",
+    "label": "Training Completed for All Elect Core Officer Positions (CC, LO, ALO, FO, MO for Y/Integrated, MEO for Gold), In-Person or Virtual",
     "max": 2,
     "mandatory": true,
     "note": null,
@@ -65,7 +65,7 @@ const KPI_META = [
   {
     "key": "apeiron_80pct",
     "code": "APE",
-    "label": "80% of New Members Attended Apeiron",
+    "label": "80% of New Members Attended Apeiron (In-Person or Virtual)",
     "max": 2,
     "mandatory": false,
     "note": "1pt for virtual",
@@ -95,9 +95,9 @@ const KPI_META = [
   {
     "key": "cm_workshop_attendance",
     "code": "CMW",
-    "label": "Chapter Manager Attendance at CM Workshop",
-    "max": 1,
-    "mandatory": false,
+    "label": "Chapter Manager to Attend CM Workshop and Share Learnings with Chapter Board",
+    "max": 5,
+    "mandatory": true,
     "note": null,
     "appliesTo": null,
     "infoText": "EMEA: 25\u201329 Jan 2027, Lisbon, Portugal \u00b7 Americas: 1\u20135 Mar 2027, Cancun, Mexico \u00b7 Asia/Pacific: 5\u20139 Apr 2027, Hanoi, Vietnam"
@@ -105,7 +105,7 @@ const KPI_META = [
   {
     "key": "rc_rd_chapter_visit",
     "code": "RCV",
-    "label": "1 Regional Chair / Regional Director Chapter Visit Completed",
+    "label": "1 Regional Chair / Regional Director Chapter Visit Completed (Game Plan / Strategic Planning Session, or Virtual / In-Person Board Meeting)",
     "max": 1,
     "mandatory": false,
     "note": null,
@@ -143,6 +143,9 @@ const KPI_META = [
     "infoText": null
   }
 ];
+
+// Potential total per the FY26-27 scheme (only one of U40 / CHP applies to a chapter).
+const MAX_SCORE = 26;
 
 const CHAPTERS = [
   {
@@ -1186,7 +1189,7 @@ function ScorecardView({ displayed, displayedMissing, expanded, setExpanded }) {
                   <HealthBadge status={c.healthStatus} score={c.healthScore} />
                 </td>
                 <td className="data-cell" style={{ padding: "11px 16px", textAlign: "center", fontSize: 13, fontWeight: 800, color: YPO_NAVY, fontVariantNumeric: "tabular-nums" }}>
-                  {c.totalScore} / 22
+                  {c.totalScore} / {MAX_SCORE}
                 </td>
                 <td className="data-cell" style={{ padding: "11px 16px", textAlign: "center" }}>
                   <span style={{

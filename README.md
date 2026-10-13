@@ -13,6 +13,8 @@ A single self-contained React component (`src/ScoreCard.jsx`) that renders:
   Chapter Health Score report
 - Mandatory-KPI tracking — a chapter can only reach a reward tier (Advanced /
   Master / Elite) once all five mandatory KPIs are confirmed met
+- A **Download PDF** button in each chapter's breakdown, producing a shareable
+  one-page KPI report for that chapter
 - A manual "Last Updated" notice in the header, since this data is **not live** —
   it's refreshed by hand whenever a new report comes in
 
@@ -75,8 +77,8 @@ and re-derive `mandatoryMet` / `tier`:
 - If `mandatoryMet === "Yes"`, `tier` is Elite (25-26), Master (23-24), Advanced
   (20-22), based on `totalScore` (out of a potential 26)
 
-Don't forget to update the "Last Updated" date string in the header once new
-data is in.
+Don't forget to update `LAST_UPDATED` (shown in the header and on chapter PDFs)
+once new data is in.
 
 ## KPI scheme reference
 

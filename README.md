@@ -12,7 +12,7 @@ A single self-contained React component (`src/ScoreCard.jsx`) that renders:
 - A **Health Status** column (Platinum / Silver / Gold / Bronze) pulled from the
   Chapter Health Score report
 - Mandatory-KPI tracking — a chapter can only reach a reward tier (Advanced /
-  Master / Elite) once all four mandatory KPIs are confirmed met
+  Master / Elite) once all five mandatory KPIs are confirmed met
 - A manual "Last Updated" notice in the header, since this data is **not live** —
   it's refreshed by hand whenever a new report comes in
 
@@ -53,7 +53,7 @@ Each chapter object looks like:
     ...
   },
   "totalScore": 3,                // sum of non-null kpi values
-  "mandatoryMet": "No",           // "Yes" only once all 4 mandatory KPIs are confirmed met
+  "mandatoryMet": "No",           // "Yes" only once all 5 mandatory KPIs are confirmed met
   "tier": "In Progress",          // "Elite" | "Master" | "Advanced" | "In Progress"
   "status": "scored",
   "raw": {                        // the actual uploaded figures behind each score
@@ -68,11 +68,12 @@ chapter's real value into the appropriate `kpis` field, recompute `totalScore`,
 and re-derive `mandatoryMet` / `tier`:
 
 - `mandatoryMet = "Yes"` only if all of `chapter_commitments_12_14`,
-  `mena_mastery_officers`, `elect_core_officer_training`, and `playbook_signed`
-  are non-null and greater than 0
+  `mena_mastery_officers`, `elect_core_officer_training`, `playbook_signed`, and
+  `cm_workshop_attendance`
+  are all non-null and greater than 0
 - Otherwise `mandatoryMet = "No"` and `tier = "In Progress"`
-- If `mandatoryMet === "Yes"`, `tier` is Elite (21-22), Master (19-20), Advanced
-  (17-18), based on `totalScore`
+- If `mandatoryMet === "Yes"`, `tier` is Elite (25-26), Master (23-24), Advanced
+  (20-22), based on `totalScore` (out of a potential 26)
 
 Don't forget to update the "Last Updated" date string in the header once new
 data is in.

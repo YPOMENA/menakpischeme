@@ -213,7 +213,8 @@ const CHAPTERS = [
       "engagement_70pct": "42.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "5 eligible officers registered (FO, LO, SPO, CC, ALO) · CM not registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
+      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)",
+      "rc_rd_chapter_visit": "Visit scheduled, not yet held"
     }
   },
   {
@@ -231,11 +232,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 0
     },
-    "totalScore": 6,
+    "totalScore": 7,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -247,7 +248,8 @@ const CHAPTERS = [
       "engagement_70pct": "47.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "1 eligible officer registered (ALO) · CM not registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "0% under 40 (0 of 1 new member this FY)"
+      "new_members_under_40": "0% under 40 (0 of 1 new member this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -281,7 +283,8 @@ const CHAPTERS = [
       "engagement_70pct": "54.3% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "7 eligible officers registered (LO, MEO, SPO, FO, CC, MO, ALO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "50% under 40 (1 of 2 new members this FY)"
+      "new_members_under_40": "50% under 40 (1 of 2 new members this FY)",
+      "rc_rd_chapter_visit": "Visit not yet scheduled"
     }
   },
   {
@@ -299,11 +302,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 2,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 8,
+    "totalScore": 9,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -315,7 +318,8 @@ const CHAPTERS = [
       "engagement_70pct": "78.2% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
       "mena_mastery_officers": "7 eligible officers registered (ALO, MO, MEO, SPO, FO, LO, CC) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
+      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -333,11 +337,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 0
     },
-    "totalScore": 3,
+    "totalScore": 4,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -349,7 +353,8 @@ const CHAPTERS = [
       "engagement_70pct": "61.9% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
       "mena_mastery_officers": "9 eligible officers registered (ALO, LO, MO, FAM, ALO, LO, SPO, CC, MEO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "0% under 40 (0 of 1 new member this FY)"
+      "new_members_under_40": "0% under 40 (0 of 1 new member this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -367,11 +372,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 3,
+    "totalScore": 4,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -383,7 +388,8 @@ const CHAPTERS = [
       "engagement_70pct": "43.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
       "mena_mastery_officers": "1 eligible officer registered (CC) · CM not registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
+      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -401,11 +407,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 2,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 7,
+    "totalScore": 8,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -417,7 +423,8 @@ const CHAPTERS = [
       "engagement_70pct": "80.8% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "3 eligible officers registered (LO, SPO, CC) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
+      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -435,11 +442,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "champion_positions_20pct": null
     },
-    "totalScore": 6,
+    "totalScore": 7,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -450,7 +457,8 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/24/2026",
       "engagement_70pct": "54.4% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "3 eligible officers registered (SPO, MEO, LO) · CM not registered · as of 11 Nov, event 21 Nov"
+      "mena_mastery_officers": "3 eligible officers registered (SPO, MEO, LO) · CM not registered · as of 11 Nov, event 21 Nov",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -483,7 +491,8 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/2/2025",
       "engagement_70pct": "30% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
-      "mena_mastery_officers": "1 eligible officer registered (MEO) · CM registered · as of 11 Nov, event 21 Nov"
+      "mena_mastery_officers": "1 eligible officer registered (MEO) · CM registered · as of 11 Nov, event 21 Nov",
+      "rc_rd_chapter_visit": "Visit not yet scheduled"
     }
   },
   {
@@ -517,7 +526,8 @@ const CHAPTERS = [
       "engagement_70pct": "43.9% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "2 eligible officers registered (ALO, CC) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "50% under 40 (1 of 2 new members this FY)"
+      "new_members_under_40": "50% under 40 (1 of 2 new members this FY)",
+      "rc_rd_chapter_visit": "Visit not yet scheduled"
     }
   },
   {
@@ -551,7 +561,8 @@ const CHAPTERS = [
       "engagement_70pct": "34.8% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "2 eligible officers registered (CC, ALO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "100% under 40 (1 of 1 new member this FY)"
+      "new_members_under_40": "100% under 40 (1 of 1 new member this FY)",
+      "rc_rd_chapter_visit": "Visit scheduled, not yet held"
     }
   },
   {
@@ -569,11 +580,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 2
     },
-    "totalScore": 5,
+    "totalScore": 6,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -585,7 +596,8 @@ const CHAPTERS = [
       "engagement_70pct": "35.2% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
       "mena_mastery_officers": "2 eligible officers registered (CC, MO) · CM not registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "100% under 40 (2 of 2 new members this FY)"
+      "new_members_under_40": "100% under 40 (2 of 2 new members this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -603,11 +615,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 0
     },
-    "totalScore": 5,
+    "totalScore": 6,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -619,7 +631,8 @@ const CHAPTERS = [
       "engagement_70pct": "59.3% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "4 eligible officers registered (ALO, LO, CC, MO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "33% under 40 (1 of 3 new members this FY)"
+      "new_members_under_40": "33% under 40 (1 of 3 new members this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -653,7 +666,8 @@ const CHAPTERS = [
       "engagement_70pct": "40.9% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "4 eligible officers registered (ALO, FO, MO, CC) · CM not registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "40% under 40 (2 of 5 new members this FY)"
+      "new_members_under_40": "40% under 40 (2 of 5 new members this FY)",
+      "rc_rd_chapter_visit": "Visit scheduled, not yet held"
     }
   },
   {
@@ -671,11 +685,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 0
     },
-    "totalScore": 2,
+    "totalScore": 3,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -687,7 +701,8 @@ const CHAPTERS = [
       "engagement_70pct": "45.8% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "2 eligible officers registered (ALO, MEO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "0% under 40 (0 of 1 new member this FY)"
+      "new_members_under_40": "0% under 40 (0 of 1 new member this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -705,11 +720,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 0
     },
-    "totalScore": 6,
+    "totalScore": 7,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -721,7 +736,8 @@ const CHAPTERS = [
       "engagement_70pct": "47.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "3 eligible officers registered (LO, CC, FO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "33% under 40 (1 of 3 new members this FY)"
+      "new_members_under_40": "33% under 40 (1 of 3 new members this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -739,11 +755,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 2
     },
-    "totalScore": 8,
+    "totalScore": 9,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -755,7 +771,8 @@ const CHAPTERS = [
       "engagement_70pct": "54.9% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "2 eligible officers registered (MEO, ALO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "100% under 40 (2 of 2 new members this FY)"
+      "new_members_under_40": "100% under 40 (2 of 2 new members this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -773,11 +790,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 2,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 2
     },
-    "totalScore": 10,
+    "totalScore": 11,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -789,7 +806,8 @@ const CHAPTERS = [
       "engagement_70pct": "78.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "6 eligible officers registered (FO, SPO, FAM, ALO, LO, CC) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "100% under 40 (1 of 1 new member this FY)"
+      "new_members_under_40": "100% under 40 (1 of 1 new member this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -807,11 +825,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 2
     },
-    "totalScore": 8,
+    "totalScore": 9,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -823,7 +841,8 @@ const CHAPTERS = [
       "engagement_70pct": "65.4% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "3 eligible officers registered (SPO, FAM, MO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "50% under 40 (1 of 2 new members this FY)"
+      "new_members_under_40": "50% under 40 (1 of 2 new members this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -841,11 +860,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "champion_positions_20pct": null
     },
-    "totalScore": 7,
+    "totalScore": 8,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -856,7 +875,8 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 7/1/2025",
       "engagement_70pct": "49.1% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "3 eligible officers registered (MEO, ALO, LO) · CM not registered · as of 11 Nov, event 21 Nov"
+      "mena_mastery_officers": "3 eligible officers registered (MEO, ALO, LO) · CM not registered · as of 11 Nov, event 21 Nov",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -890,7 +910,8 @@ const CHAPTERS = [
       "engagement_70pct": "45.1% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "5 eligible officers registered (CC, CC, LO, FO, MO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
+      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)",
+      "rc_rd_chapter_visit": "Visit not yet scheduled"
     }
   },
   {
@@ -924,7 +945,8 @@ const CHAPTERS = [
       "engagement_70pct": "72.1% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "4 eligible officers registered (LO, ALO, CC, FAM) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
+      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)",
+      "rc_rd_chapter_visit": "Visit scheduled, not yet held"
     }
   },
   {
@@ -942,11 +964,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 2,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 2
     },
-    "totalScore": 9,
+    "totalScore": 10,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -958,7 +980,8 @@ const CHAPTERS = [
       "engagement_70pct": "73.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "8 eligible officers registered (MEO, FAM, MO, LO, CC, FO, CC, SPO) · CM not registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "50% under 40 (2 of 4 new members this FY)"
+      "new_members_under_40": "50% under 40 (2 of 4 new members this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -976,11 +999,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 0
     },
-    "totalScore": 5,
+    "totalScore": 6,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -992,7 +1015,8 @@ const CHAPTERS = [
       "engagement_70pct": "46.2% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "2 eligible officers registered (MEO, LO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "0% under 40 (0 of 2 new members this FY)"
+      "new_members_under_40": "0% under 40 (0 of 2 new members this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -1010,11 +1034,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 0,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": null
     },
-    "totalScore": 5,
+    "totalScore": 6,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -1026,7 +1050,8 @@ const CHAPTERS = [
       "engagement_70pct": "32.7% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "3 eligible officers registered (SPO, MO, LO) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
+      "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -1044,11 +1069,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 0,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 0
     },
-    "totalScore": 8,
+    "totalScore": 9,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -1060,7 +1085,8 @@ const CHAPTERS = [
       "engagement_70pct": "66.7% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "4 eligible officers registered (LO, MEO, FO, CC) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "33% under 40 (1 of 3 new members this FY)"
+      "new_members_under_40": "33% under 40 (1 of 3 new members this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   },
   {
@@ -1078,11 +1104,11 @@ const CHAPTERS = [
       "apeiron_80pct": null,
       "game_plan_submission": 1,
       "engagement_70pct": 2,
-      "rc_rd_chapter_visit": null,
+      "rc_rd_chapter_visit": 1,
       "open_chapter_event": null,
       "new_members_under_40": 0
     },
-    "totalScore": 8,
+    "totalScore": 9,
     "mandatoryMet": "No",
     "tier": "In Progress",
     "status": "scored",
@@ -1094,7 +1120,8 @@ const CHAPTERS = [
       "engagement_70pct": "75% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
       "mena_mastery_officers": "5 eligible officers registered (MEO, FO, ALO, CC, FAM) · CM registered · as of 11 Nov, event 21 Nov",
-      "new_members_under_40": "0% under 40 (0 of 1 new member this FY)"
+      "new_members_under_40": "0% under 40 (0 of 1 new member this FY)",
+      "rc_rd_chapter_visit": "RC / RD chapter visit completed"
     }
   }
 ];
@@ -1400,18 +1427,36 @@ async function downloadChapterPdf(chapter, userComments = {}) {
     doc.text(`Page ${i} of ${pages}`, W - M, H - 20, { align: "right" });
   }
 
-  doc.save(`${chapter.name} - KPI Scorecard ${LAST_UPDATED.replace(/\//g, "-")}.pdf`);
+  await saveFile(doc, `${chapter.name} - KPI Scorecard ${LAST_UPDATED.replace(/\//g, "-")}.pdf`);
+}
+
+// Inside a claude.ai artifact the page cannot start downloads itself; the viewer's
+// `downloads` capability offers the file instead. Everywhere else, a normal download.
+async function saveFile(doc, filename) {
+  const downloads = window.claude?.use ? await window.claude.use("downloads") : null;
+  if (!downloads) {
+    doc.save(filename);
+    return;
+  }
+  try {
+    await downloads.save({ filename, data: doc.output("blob") });
+  } catch (err) {
+    if (err?.code === "declined") return;
+    throw err;
+  }
 }
 
 function PdfButton({ chapter, userComments }) {
   const [busy, setBusy] = useState(false);
+  const [failed, setFailed] = useState(false);
   const onClick = async () => {
     setBusy(true);
+    setFailed(false);
     try {
       await downloadChapterPdf(chapter, userComments);
     } catch (err) {
       console.error(err);
-      alert("Sorry, the PDF could not be created.");
+      setFailed(true);
     } finally {
       setBusy(false);
     }
@@ -1428,7 +1473,7 @@ function PdfButton({ chapter, userComments }) {
       }}
     >
       <span style={{ fontSize: 13 }}>{"⤓"}</span>
-      {busy ? "Preparing PDF…" : "Download PDF"}
+      {busy ? "Preparing PDF…" : failed ? "PDF failed — try again" : "Download PDF"}
     </button>
   );
 }
@@ -1584,7 +1629,7 @@ function KpiVerticalPanel({ chapter }) {
 
 function ScorecardView({ displayed, displayedMissing, expanded, setExpanded }) {
   return (
-    <div>
+    <div style={{ overflowX: "auto" }}>
       <table style={{
         borderCollapse: "collapse", width: "100%", background: "#fff", borderRadius: 10,
         overflow: "hidden", boxShadow: "0 1px 3px rgba(0,47,108,0.06),0 4px 16px rgba(0,47,108,0.08)",

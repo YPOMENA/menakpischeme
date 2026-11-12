@@ -212,7 +212,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/24/2025",
       "engagement_70pct": "42.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "3 eligible officers registered (LO, SPO, ALO) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "5 eligible officers registered (FO, LO, SPO, CC, ALO) · CM not registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
     }
   },
@@ -246,7 +246,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/6/2026",
       "engagement_70pct": "47.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "1 eligible officer registered (ALO) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "1 eligible officer registered (ALO) · CM not registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "0% under 40 (0 of 1 new member this FY)"
     }
   },
@@ -280,7 +280,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 11/4/2026",
       "engagement_70pct": "54.3% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "6 eligible officers registered (MEO, SPO, FO, CC, MO, ALO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "7 eligible officers registered (LO, MEO, SPO, FO, CC, MO, ALO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "50% under 40 (1 of 2 new members this FY)"
     }
   },
@@ -314,7 +314,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 7/22/2026",
       "engagement_70pct": "78.2% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
-      "mena_mastery_officers": "7 eligible officers registered (ALO, MO, MEO, SPO, FO, LO, CC) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "7 eligible officers registered (ALO, MO, MEO, SPO, FO, LO, CC) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
     }
   },
@@ -348,7 +348,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 12/17/2025",
       "engagement_70pct": "61.9% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
-      "mena_mastery_officers": "8 eligible officers registered (ALO, LO, MO, FAM, LO, SPO, CC, MEO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "9 eligible officers registered (ALO, LO, MO, FAM, ALO, LO, SPO, CC, MEO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "0% under 40 (0 of 1 new member this FY)"
     }
   },
@@ -382,7 +382,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 12/15/2025",
       "engagement_70pct": "43.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
-      "mena_mastery_officers": "1 eligible officer registered (CC) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "1 eligible officer registered (CC) · CM not registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
     }
   },
@@ -416,7 +416,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/24/2025",
       "engagement_70pct": "80.8% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "3 eligible officers registered (LO, SPO, CC) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "3 eligible officers registered (LO, SPO, CC) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
     }
   },
@@ -450,7 +450,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/24/2026",
       "engagement_70pct": "54.4% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "3 eligible officers registered (SPO, MEO, LO) · CM not registered · as of 12 Oct, event 21 Nov"
+      "mena_mastery_officers": "3 eligible officers registered (SPO, MEO, LO) · CM not registered · as of 11 Nov, event 21 Nov"
     }
   },
   {
@@ -483,7 +483,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/2/2025",
       "engagement_70pct": "30% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
-      "mena_mastery_officers": "1 eligible officer registered (MEO) · CM registered · as of 12 Oct, event 21 Nov"
+      "mena_mastery_officers": "1 eligible officer registered (MEO) · CM registered · as of 11 Nov, event 21 Nov"
     }
   },
   {
@@ -516,7 +516,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 3/17/2026",
       "engagement_70pct": "43.9% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "3 eligible officers registered (ALO, CC, MEO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "2 eligible officers registered (ALO, CC) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "50% under 40 (1 of 2 new members this FY)"
     }
   },
@@ -550,7 +550,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 11/5/2025",
       "engagement_70pct": "34.8% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "1 eligible officer registered (ALO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "2 eligible officers registered (CC, ALO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "100% under 40 (1 of 1 new member this FY)"
     }
   },
@@ -584,7 +584,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/30/2025",
       "engagement_70pct": "35.2% Highly Engaged + Engaged combined",
       "playbook_signed": "Playbook receipt not yet signed",
-      "mena_mastery_officers": "2 eligible officers registered (CC, MO) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "2 eligible officers registered (CC, MO) · CM not registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "100% under 40 (2 of 2 new members this FY)"
     }
   },
@@ -618,7 +618,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 10/15/2025",
       "engagement_70pct": "59.3% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "3 eligible officers registered (LO, CC, MO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "4 eligible officers registered (ALO, LO, CC, MO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "33% under 40 (1 of 3 new members this FY)"
     }
   },
@@ -652,7 +652,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/18/2025",
       "engagement_70pct": "40.9% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "2 eligible officers registered (MO, CC) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "4 eligible officers registered (ALO, FO, MO, CC) · CM not registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "40% under 40 (2 of 5 new members this FY)"
     }
   },
@@ -686,7 +686,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 7/1/2025",
       "engagement_70pct": "45.8% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "1 eligible officer registered (MEO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "2 eligible officers registered (ALO, MEO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "0% under 40 (0 of 1 new member this FY)"
     }
   },
@@ -720,7 +720,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 7/6/2026",
       "engagement_70pct": "47.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "1 eligible officer registered (FO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "3 eligible officers registered (LO, CC, FO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "33% under 40 (1 of 3 new members this FY)"
     }
   },
@@ -754,7 +754,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/24/2026",
       "engagement_70pct": "54.9% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "2 eligible officers registered (MEO, ALO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "2 eligible officers registered (MEO, ALO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "100% under 40 (2 of 2 new members this FY)"
     }
   },
@@ -788,7 +788,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 10/20/2026",
       "engagement_70pct": "78.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "6 eligible officers registered (FO, SPO, FAM, ALO, MO, LO) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "6 eligible officers registered (FO, SPO, FAM, ALO, LO, CC) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "100% under 40 (1 of 1 new member this FY)"
     }
   },
@@ -822,7 +822,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 11/3/2026",
       "engagement_70pct": "65.4% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "2 eligible officers registered (FAM, MO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "3 eligible officers registered (SPO, FAM, MO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "50% under 40 (1 of 2 new members this FY)"
     }
   },
@@ -856,7 +856,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 7/1/2025",
       "engagement_70pct": "49.1% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "3 eligible officers registered (MEO, ALO, LO) · CM not registered · as of 12 Oct, event 21 Nov"
+      "mena_mastery_officers": "3 eligible officers registered (MEO, ALO, LO) · CM not registered · as of 11 Nov, event 21 Nov"
     }
   },
   {
@@ -889,7 +889,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 7/9/2026",
       "engagement_70pct": "45.1% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "2 eligible officers registered (FO, MO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "5 eligible officers registered (CC, CC, LO, FO, MO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
     }
   },
@@ -923,7 +923,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/29/2026",
       "engagement_70pct": "72.1% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "4 eligible officers registered (LO, ALO, CC, FAM) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "4 eligible officers registered (LO, ALO, CC, FAM) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
     }
   },
@@ -957,7 +957,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 5/16/2025",
       "engagement_70pct": "73.5% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "6 eligible officers registered (MEO, MO, LO, CC, FO, CC) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "8 eligible officers registered (MEO, FAM, MO, LO, CC, FO, CC, SPO) · CM not registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "50% under 40 (2 of 4 new members this FY)"
     }
   },
@@ -991,7 +991,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/24/2025",
       "engagement_70pct": "46.2% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "1 eligible officer registered (LO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "2 eligible officers registered (MEO, LO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "0% under 40 (0 of 2 new members this FY)"
     }
   },
@@ -1025,7 +1025,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 1/20/2026",
       "engagement_70pct": "32.7% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "2 eligible officers registered (MO, LO) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "3 eligible officers registered (SPO, MO, LO) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "No new members joined yet this FY (as of 10 Nov)"
     }
   },
@@ -1059,7 +1059,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 6/8/2026",
       "engagement_70pct": "66.7% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "1 eligible officer registered (CC) · CM not registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "4 eligible officers registered (LO, MEO, FO, CC) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "33% under 40 (1 of 3 new members this FY)"
     }
   },
@@ -1093,7 +1093,7 @@ const CHAPTERS = [
       "game_plan_submission": "Strategic plan last updated 9/24/2026",
       "engagement_70pct": "75% Highly Engaged + Engaged combined",
       "playbook_signed": "Chapter Chair signed receipt of playbook",
-      "mena_mastery_officers": "6 eligible officers registered (MEO, MO, LO, FO, ALO, FAM) · CM registered · as of 12 Oct, event 21 Nov",
+      "mena_mastery_officers": "5 eligible officers registered (MEO, FO, ALO, CC, FAM) · CM registered · as of 11 Nov, event 21 Nov",
       "new_members_under_40": "0% under 40 (0 of 1 new member this FY)"
     }
   }
